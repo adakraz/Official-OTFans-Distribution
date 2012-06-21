@@ -35,28 +35,14 @@
 		<immunity invisible="0"/>
 	</immunities>
 	<loot>
-    <item id="2148" countmax="45" chance="18575" /><!-- gold coin -->
-    <item id="11192" chance="10700" /><!-- carrion worm fang -->
-    <item id="3976" countmax="2" chance="2075" /><!-- worm -->
-    <item id="2666" countmax="2" chance="10125" /><!-- meat -->
-</loot>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		<item id="2148" countmax="48" chance="100000" /><!-- gold coin -->
+		<item id="11192" chance="10700" /><!-- carrion worm fang -->
+		<item id="3976" countmax="2" chance="2075" /><!-- worm -->
+		<item id="2666" countmax="2" chance="20000" /><!-- meat -->
+		<item id="2398" chance="3333" /><!-- mace -->
+		<item id="2530" chance="2000" /><!-- copper shield -->
+		<item id="2671" chance="20000" /><!-- ham -->
+		<item id="2376" chance="10000" /><!-- sword -->
+		<item id="2412" chance="8000" /><!-- katana -->
+	</loot>
 </monster>

@@ -22,34 +22,16 @@
 	</attacks>
 	<defenses armor="8" defense="11"/>
 	<loot>
-    <item id="10609" chance="10325" /><!-- lump of dirt -->
-    <item id="2666" countmax="2" chance="20625" /><!-- meat -->
-    <item id="2148" countmax="17" chance="24200" /><!-- gold coin -->
-    <item id="2671" countmax="2" chance="20000" /><!-- ham -->
-    <item id="1987" chance="100000"><!-- bag -->
-        <inside>
-            <item id="3976" countmax="3" chance="2375" /><!-- worm -->
-            <item id="2376" chance="3500" /><!-- sword -->
-            <item id="2398" chance="4750" /><!-- mace -->
-        </inside>
-    </item>
-</loot>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		<item id="2148" countmax="20" chance="100000" /><!-- gold coin -->
+		<item id="10609" chance="10325" /><!-- lump of dirt -->
+		<item id="2666" countmax="2" chance="20625" /><!-- meat -->
+		<item id="2148" countmax="14" chance="100000" /><!-- gold coin -->
+		<item id="2671" countmax="1" chance="20000" /><!-- ham -->
+		<item id="3976" countmax="5" chance="2375" /><!-- worm -->
+		<item id="2376" chance="10000" /><!-- sword -->
+		<item id="2398" chance="3333" /><!-- mace -->
+		<item id="2412" chance="1000" /><!-- katana -->
+		<item id="2480" chance="1500" /><!-- legion helmet -->
+		<item id="2530" chacne="2857" /><!-- copper shield -->
+	</loot>
 </monster>
