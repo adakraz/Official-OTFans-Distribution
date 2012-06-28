@@ -325,6 +325,14 @@
   <spawn centerx="409" centery="1524" centerz="10" radius="3">
     <monster name="Minotaur" x="0" y="0" z="10" spawntime="60"/>
   </spawn>
+  <spawn centerx="574" centery="1465" centerz="11" radius="5">
+    <monster name="Rotworm" x="-1" y="-5" z="11" spawntime="60"/>
+    <monster name="Rotworm" x="0" y="0" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="567" centery="1467" centerz="11" radius="5">
+    <monster name="Rotworm" x="-1" y="-1" z="11" spawntime="60"/>
+    <monster name="Rotworm" x="1" y="0" z="11" spawntime="60"/>
+  </spawn>
   <spawn centerx="441" centery="1496" centerz="11" radius="5">
     <monster name="Skeleton" x="-1" y="-2" z="11" spawntime="60"/>
     <monster name="Skeleton" x="1" y="-2" z="11" spawntime="60"/>
