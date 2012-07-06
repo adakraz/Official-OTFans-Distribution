@@ -68,6 +68,9 @@
   </spawn>
   <spawn centerx="639" centery="1214" centerz="7" radius="2"/>
   <spawn centerx="634" centery="1216" centerz="7" radius="2"/>
+  <spawn centerx="658" centery="1219" centerz="7" radius="5">
+    <monster name="Nomad" x="4" y="0" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="493" centery="1426" centerz="7" radius="5">
     <monster name="Wolf" x="5" y="-1" z="7" spawntime="60"/>
     <monster name="Wolf" x="-1" y="0" z="7" spawntime="60"/>
