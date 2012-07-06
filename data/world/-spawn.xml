@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spawns>
+  <spawn centerx="719" centery="1321" centerz="3" radius="5">
+    <monster name="Behemoth" x="-2" y="-1" z="3" spawntime="60"/>
+    <monster name="Behemoth" x="2" y="-1" z="3" spawntime="60"/>
+    <monster name="Behemoth" x="0" y="4" z="3" spawntime="60"/>
+  </spawn>
   <spawn centerx="527" centery="1439" centerz="4" radius="5">
     <monster name="Wasp" x="-1" y="-4" z="4" spawntime="60"/>
     <monster name="Wasp" x="-3" y="-2" z="4" spawntime="60"/>
