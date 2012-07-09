@@ -29,6 +29,15 @@
     <monster name="Troll" x="2" y="-1" z="5" spawntime="60"/>
     <monster name="Troll" x="2" y="0" z="5" spawntime="60"/>
   </spawn>
+  <spawn centerx="640" centery="1313" centerz="6" radius="3">
+    <monster name="Ghoul" x="0" y="0" z="6" spawntime="60"/>
+    <monster name="Skeleton" x="1" y="3" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="650" centery="1317" centerz="6" radius="3">
+    <monster name="Skeleton" x="-1" y="-2" z="6" spawntime="60"/>
+    <monster name="Ghoul" x="-1" y="-1" z="6" spawntime="60"/>
+    <monster name="Skeleton" x="-2" y="0" z="6" spawntime="60"/>
+  </spawn>
   <spawn centerx="522" centery="1439" centerz="6" radius="5">
     <monster name="Wasp" x="4" y="-4" z="6" spawntime="60"/>
     <monster name="Wasp" x="0" y="0" z="6" spawntime="60"/>
@@ -76,6 +85,7 @@
   <spawn centerx="643" centery="1166" centerz="7" radius="5">
     <monster name="Nomad" x="4" y="0" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="647" centery="1320" centerz="7" radius="3"/>
   <spawn centerx="493" centery="1426" centerz="7" radius="5">
     <monster name="Wolf" x="5" y="-1" z="7" spawntime="60"/>
     <monster name="Wolf" x="-1" y="0" z="7" spawntime="60"/>
