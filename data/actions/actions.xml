@@ -1,5 +1,12 @@
 <?xml version="1.0"?>
 <actions>
+
+    <!-- Contributions to OOD -->
+    
+    <!-- Kokokoko's "cart to open door" -->
+    <action actionid="1100" event="script" value="cartDoor.lua"/>
+    <action itemid="9827;9828" event="script" value="cartScript.lua"/>
+
 	<!-- Quest System (based on map editor) -->
 	<action actionid="2000" script="system.lua"/>
 	
