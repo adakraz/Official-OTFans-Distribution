@@ -203,6 +203,30 @@
   <spawn centerx="687" centery="1675" centerz="6" radius="1">
     <monster name="Wolf" x="0" y="0" z="6" spawntime="60"/>
   </spawn>
+  <spawn centerx="743" centery="1716" centerz="6" radius="1">
+    <monster name="Cyclops Drone" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="730" centery="1720" centerz="6" radius="1">
+    <monster name="Cyclops" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="733" centery="1720" centerz="6" radius="1">
+    <monster name="Cyclops" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="750" centery="1725" centerz="6" radius="1">
+    <monster name="Cyclops" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="761" centery="1725" centerz="6" radius="1">
+    <monster name="Cyclops" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="719" centery="1726" centerz="6" radius="1">
+    <monster name="Cyclops Drone" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="750" centery="1729" centerz="6" radius="1">
+    <monster name="Cyclops" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="724" centery="1731" centerz="6" radius="1">
+    <monster name="Cyclops Drone" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
   <spawn centerx="529" centery="1020" centerz="7" radius="5">
     <monster name="Deer" x="-2" y="-3" z="7" spawntime="60"/>
     <monster name="Deer" x="0" y="-2" z="7" spawntime="60"/>
@@ -417,6 +441,9 @@
     <monster name="Wolf" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="645" centery="1669" centerz="7" radius="3"/>
+  <spawn centerx="745" centery="1693" centerz="7" radius="5">
+    <monster name="Cyclops" x="-1" y="-1" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="739" centery="1707" centerz="7" radius="2">
     <monster name="Cyclops" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
