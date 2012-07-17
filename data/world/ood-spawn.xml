@@ -440,7 +440,6 @@
   <spawn centerx="667" centery="1656" centerz="7" radius="2">
     <monster name="Wolf" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="645" centery="1669" centerz="7" radius="3"/>
   <spawn centerx="745" centery="1693" centerz="7" radius="5">
     <monster name="Cyclops" x="-1" y="-1" z="7" spawntime="60"/>
   </spawn>
