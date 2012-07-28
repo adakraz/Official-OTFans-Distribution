@@ -425,6 +425,15 @@
     <monster name="Deer" x="3" y="-1" z="7" spawntime="60"/>
     <monster name="Deer" x="-1" y="3" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="598" centery="1563" centerz="7" radius="1">
+    <monster name="Cyclops" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="598" centery="1565" centerz="7" radius="1">
+    <monster name="Ghoul" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="598" centery="1567" centerz="7" radius="1">
+    <monster name="Troll" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="668" centery="1634" centerz="7" radius="2">
     <monster name="Wolf" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
@@ -523,6 +532,10 @@
   </spawn>
   <spawn centerx="748" centery="1708" centerz="7" radius="2">
     <monster name="Cyclops" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="676" centery="1709" centerz="7" radius="5">
+    <monster name="Hunter" x="2" y="-1" z="7" spawntime="60"/>
+    <monster name="Hunter" x="-1" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="728" centery="1713" centerz="7" radius="1">
     <monster name="Cyclops" x="0" y="0" z="7" spawntime="60"/>
