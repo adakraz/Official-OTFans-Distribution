@@ -643,9 +643,64 @@
   <spawn centerx="445" centery="1532" centerz="8" radius="5">
     <monster name="Troll" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="600" centery="1566" centerz="8" radius="1">
+    <monster name="Necromancer" x="0" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="599" centery="1568" centerz="8" radius="1">
+    <monster name="Beholder" x="0" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="601" centery="1568" centerz="8" radius="1">
+    <monster name="Beholder" x="0" y="1" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="782" centery="1569" centerz="8" radius="5">
     <monster name="Cave Rat" x="-1" y="-3" z="8" spawntime="60"/>
     <monster name="Cave Rat" x="2" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="585" centery="1581" centerz="8" radius="1">
+    <monster name="Ghoul" x="-1" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="596" centery="1582" centerz="8" radius="1">
+    <monster name="Demon Skeleton" x="1" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="598" centery="1582" centerz="8" radius="1">
+    <monster name="Demon Skeleton" x="1" y="-1" z="8" spawntime="60"/>
+    <monster name="Ghoul" x="0" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="600" centery="1582" centerz="8" radius="1"/>
+  <spawn centerx="620" centery="1582" centerz="8" radius="1">
+    <monster name="Necromancer" x="-1" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="583" centery="1583" centerz="8" radius="1">
+    <monster name="Demon Skeleton" x="-1" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="582" centery="1586" centerz="8" radius="1">
+    <monster name="Ghoul" x="-1" y="-1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="618" centery="1597" centerz="8" radius="1">
+    <monster name="Demon Skeleton" x="-1" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="621" centery="1598" centerz="8" radius="1">
+    <monster name="Demon Skeleton" x="1" y="-1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="580" centery="1599" centerz="8" radius="1">
+    <monster name="Necromancer" x="1" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="598" centery="1599" centerz="8" radius="1">
+    <monster name="Beholder" x="-1" y="1" z="8" spawntime="60"/>
+    <monster name="Ghoul" x="1" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="597" centery="1600" centerz="8" radius="1"/>
+  <spawn centerx="618" centery="1601" centerz="8" radius="1">
+    <monster name="Demon Skeleton" x="-1" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="621" centery="1601" centerz="8" radius="1">
+    <monster name="Demon Skeleton" x="1" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="585" centery="1612" centerz="8" radius="1">
+    <monster name="Ghoul" x="1" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="598" centery="1616" centerz="8" radius="1">
+    <monster name="Necromancer" x="0" y="-1" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="661" centery="1625" centerz="8" radius="1">
     <monster name="Wolf" x="0" y="0" z="8" spawntime="60"/>
