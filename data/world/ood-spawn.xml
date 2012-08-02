@@ -647,12 +647,42 @@
     <monster name="Cave Rat" x="-1" y="-3" z="8" spawntime="60"/>
     <monster name="Cave Rat" x="2" y="0" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="661" centery="1625" centerz="8" radius="1">
+    <monster name="Wolf" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="664" centery="1625" centerz="8" radius="1">
+    <monster name="Wolf" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="662" centery="1627" centerz="8" radius="1">
+    <monster name="Wolf" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="651" centery="1628" centerz="8" radius="1">
+    <monster name="Wolf" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="654" centery="1628" centerz="8" radius="1">
+    <monster name="Wolf" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="668" centery="1628" centerz="8" radius="1">
+    <monster name="Wolf" x="0" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="672" centery="1628" centerz="8" radius="1">
+    <monster name="Wolf" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="669" centery="1632" centerz="8" radius="1">
+    <monster name="Wolf" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="789" centery="1632" centerz="8" radius="5">
     <monster name="Rotworm" x="2" y="-1" z="8" spawntime="60"/>
     <monster name="Rotworm" x="-1" y="2" z="8" spawntime="60"/>
     <monster name="Rotworm" x="3" y="5" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="794" centery="1634" centerz="8" radius="5"/>
+  <spawn centerx="655" centery="1635" centerz="8" radius="1">
+    <monster name="Wolf" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="659" centery="1635" centerz="8" radius="1">
+    <monster name="Wolf" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="589" centery="1640" centerz="8" radius="5">
     <monster name="Zombie" x="0" y="-2" z="8" spawntime="60"/>
   </spawn>
