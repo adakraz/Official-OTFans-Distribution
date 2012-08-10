@@ -536,17 +536,39 @@
   <spawn centerx="716" centery="1677" centerz="7" radius="1">
     <monster name="Wolf" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="778" centery="1681" centerz="7" radius="1">
+    <monster name="Bear" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="785" centery="1682" centerz="7" radius="1">
+    <monster name="Bear" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="730" centery="1685" centerz="7" radius="1">
     <monster name="Wolf" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="785" centery="1686" centerz="7" radius="1">
+    <monster name="Bear" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="704" centery="1687" centerz="7" radius="1">
     <monster name="Wolf" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="777" centery="1688" centerz="7" radius="1">
+    <monster name="Bear" x="0" y="-1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="724" centery="1691" centerz="7" radius="1">
     <monster name="Wolf" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="745" centery="1693" centerz="7" radius="5">
     <monster name="Cyclops" x="-1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="766" centery="1693" centerz="7" radius="1">
+    <monster name="Wolf" x="1" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="798" centery="1694" centerz="7" radius="1">
+    <monster name="Deer" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="786" centery="1703" centerz="7" radius="1">
+    <monster name="Wolf" x="0" y="1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="722" centery="1704" centerz="7" radius="1">
     <monster name="Cyclops" x="0" y="0" z="7" spawntime="60"/>
@@ -557,9 +579,16 @@
   <spawn centerx="748" centery="1708" centerz="7" radius="2">
     <monster name="Cyclops" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="782" centery="1708" centerz="7" radius="1">
+    <monster name="Wolf" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="676" centery="1709" centerz="7" radius="5">
     <monster name="Hunter" x="2" y="-1" z="7" spawntime="60"/>
     <monster name="Hunter" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="769" centery="1709" centerz="7" radius="1">
+    <monster name="Wolf" x="1" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="1" y="1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="728" centery="1713" centerz="7" radius="1">
     <monster name="Cyclops" x="0" y="0" z="7" spawntime="60"/>
@@ -831,6 +860,12 @@
     <monster name="Mummy" x="0" y="-2" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="575" centery="1691" centerz="8" radius="5"/>
+  <spawn centerx="798" centery="1697" centerz="8" radius="1">
+    <monster name="Dragon" x="1" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="817" centery="1697" centerz="8" radius="1">
+    <monster name="Dragon" x="0" y="1" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="573" centery="1725" centerz="8" radius="5">
     <monster name="Zombie" x="-2" y="-2" z="8" spawntime="60"/>
     <monster name="Zombie" x="1" y="-1" z="8" spawntime="60"/>
