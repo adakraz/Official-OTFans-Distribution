@@ -212,6 +212,15 @@
   <spawn centerx="687" centery="1675" centerz="6" radius="1">
     <monster name="Wolf" x="0" y="0" z="6" spawntime="60"/>
   </spawn>
+  <spawn centerx="826" centery="1688" centerz="6" radius="1">
+    <monster name="Dragon" x="1" y="-1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="805" centery="1695" centerz="6" radius="1">
+    <monster name="Dragon" x="1" y="-1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="827" centery="1696" centerz="6" radius="1">
+    <monster name="Dragon" x="-1" y="0" z="6" spawntime="60"/>
+  </spawn>
   <spawn centerx="743" centery="1716" centerz="6" radius="1">
     <monster name="Cyclops Drone" x="0" y="0" z="6" spawntime="60"/>
   </spawn>
@@ -599,11 +608,34 @@
   <spawn centerx="745" centery="1721" centerz="7" radius="2">
     <monster name="Cyclops" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="748" centery="1731" centerz="7" radius="2">
-    <monster name="Cyclops" x="0" y="0" z="7" spawntime="60"/>
+  <spawn centerx="761" centery="1726" centerz="7" radius="1">
+    <monster name="Cyclops Smith" x="0" y="1" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="751" centery="1731" centerz="7" radius="2">
-    <monster name="Cyclops" x="0" y="0" z="7" spawntime="60"/>
+  <spawn centerx="749" centery="1731" centerz="7" radius="2">
+    <monster name="Cyclops" x="-1" y="0" z="7" spawntime="60"/>
+    <monster name="Cyclops" x="2" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="751" centery="1731" centerz="7" radius="2"/>
+  <spawn centerx="764" centery="1733" centerz="7" radius="1">
+    <monster name="Cyclops" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="763" centery="1736" centerz="7" radius="1">
+    <monster name="Cyclops" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="753" centery="1741" centerz="7" radius="1">
+    <monster name="Cyclops Drone" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="773" centery="1741" centerz="7" radius="1">
+    <monster name="Cyclops Smith" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="773" centery="1745" centerz="7" radius="1">
+    <monster name="Cyclops Smith" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="755" centery="1751" centerz="7" radius="1">
+    <monster name="Cyclops Smith" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="761" centery="1752" centerz="7" radius="1">
+    <monster name="Cyclops Smith" x="-1" y="-1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="548" centery="1029" centerz="8" radius="5">
     <monster name="Bear" x="1" y="0" z="8" spawntime="56"/>
