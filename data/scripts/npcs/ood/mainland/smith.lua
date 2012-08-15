@@ -54,11 +54,11 @@ Smith.trade = {
 	{'icy relic sword',		 id=7764, sell=25000};
 	{'pharaoh sword',		 id=2446, sell=23000};
 	{'djinn blade',			 id=2451, sell=15000};
-	{'dragon slayer',		 id=7402, sell=15000};
---	{'earth dragon slayer',  id=????, sell=15000};
---	{'energy dragon slayer', id=????, sell=15000};
---	{'fiery dragon slayer',  id=????, sell=15000};
---	{'icy dragon slayer',    id=????, sell=15000};
+	{'dragonslayer',		 id=7402, sell=15000};
+	{'earth dragonslayer',   id=7858, sell=15000};
+	{'energy dragonslayer',  id=7873, sell=15000};
+	{'fiery dragonslayer',   id=7748, sell=15000};
+	{'icy dragonslayer',     id=7767, sell=15000};
 	{'mercenary sword',      id=7386, sell=12000};
 	{'epee', 				 id=2438, sell=8000};
 	{'icy blacksteel sword', id=7766, sell=6000};
