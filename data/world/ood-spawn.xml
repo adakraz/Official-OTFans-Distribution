@@ -506,11 +506,23 @@
   <spawn centerx="668" centery="1634" centerz="7" radius="2">
     <monster name="Wolf" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="772" centery="1634" centerz="7" radius="1">
+    <monster name="Pig" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="774" centery="1634" centerz="7" radius="1">
+    <monster name="Pig" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="659" centery="1636" centerz="7" radius="2">
     <monster name="Wolf" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="673" centery="1636" centerz="7" radius="2">
     <monster name="Wolf" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="772" centery="1636" centerz="7" radius="1">
+    <monster name="Pig" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="774" centery="1636" centerz="7" radius="1">
+    <monster name="Pig" x="1" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="668" centery="1640" centerz="7" radius="2">
     <monster name="Wolf" x="0" y="0" z="7" spawntime="60"/>
@@ -777,6 +789,25 @@
     <monster name="Cave Rat" x="-1" y="-3" z="8" spawntime="60"/>
     <monster name="Cave Rat" x="2" y="0" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="708" centery="1571" centerz="8" radius="1">
+    <monster name="Cave Rat" x="1" y="0" z="8" spawntime="60"/>
+    <monster name="Bat" x="1" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="724" centery="1571" centerz="8" radius="1">
+    <monster name="Rat" x="-1" y="1" z="8" spawntime="1536"/>
+    <monster name="Rat" x="0" y="1" z="8" spawntime="1536"/>
+    <monster name="Rat" x="1" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="720" centery="1572" centerz="8" radius="1">
+    <monster name="Cave Rat" x="1" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="732" centery="1572" centerz="8" radius="1">
+    <monster name="Bat" x="0" y="1" z="8" spawntime="60"/>
+    <monster name="Cave Rat" x="1" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="709" centery="1580" centerz="8" radius="1">
+    <monster name="Cave Rat" x="-1" y="0" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="585" centery="1581" centerz="8" radius="1">
     <monster name="Ghoul" x="-1" y="0" z="8" spawntime="60"/>
   </spawn>
@@ -794,8 +825,41 @@
   <spawn centerx="583" centery="1583" centerz="8" radius="1">
     <monster name="Demon Skeleton" x="-1" y="1" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="722" centery="1584" centerz="8" radius="1">
+    <monster name="Cave Rat" x="1" y="0" z="8" spawntime="60"/>
+    <monster name="Bat" x="1" y="1" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="582" centery="1586" centerz="8" radius="1">
     <monster name="Ghoul" x="-1" y="-1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="700" centery="1586" centerz="8" radius="1">
+    <monster name="Bat" x="1" y="-1" z="8" spawntime="60"/>
+    <monster name="Cave Rat" x="-1" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="733" centery="1587" centerz="8" radius="1">
+    <monster name="Cave Rat" x="-1" y="0" z="8" spawntime="60"/>
+    <monster name="Bat" x="0" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="700" centery="1591" centerz="8" radius="1">
+    <monster name="Rat" x="-1" y="-1" z="8" spawntime="60"/>
+    <monster name="Rat" x="-1" y="1" z="8" spawntime="60"/>
+    <monster name="Rat" x="0" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="719" centery="1594" centerz="8" radius="1">
+    <monster name="Rat" x="-1" y="1" z="8" spawntime="60"/>
+    <monster name="Rat" x="0" y="1" z="8" spawntime="60"/>
+    <monster name="Rat" x="1" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="723" centery="1594" centerz="8" radius="1">
+    <monster name="Bat" x="-1" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="700" centery="1595" centerz="8" radius="1">
+    <monster name="Cave Rat" x="1" y="0" z="8" spawntime="60"/>
+    <monster name="Bat" x="-1" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="710" centery="1595" centerz="8" radius="1">
+    <monster name="Bat" x="1" y="-1" z="8" spawntime="60"/>
+    <monster name="Cave Rat" x="1" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="618" centery="1597" centerz="8" radius="1">
     <monster name="Demon Skeleton" x="-1" y="0" z="8" spawntime="60"/>
@@ -817,11 +881,28 @@
   <spawn centerx="621" centery="1601" centerz="8" radius="1">
     <monster name="Demon Skeleton" x="1" y="0" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="721" centery="1602" centerz="8" radius="1">
+    <monster name="Cave Rat" x="1" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="680" centery="1603" centerz="8" radius="1">
+    <monster name="Cave Rat" x="1" y="0" z="8" spawntime="60"/>
+    <monster name="Bat" x="0" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="697" centery="1603" centerz="8" radius="1">
+    <monster name="Cave Rat" x="-1" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="713" centery="1610" centerz="8" radius="1">
+    <monster name="Bat" x="-1" y="-1" z="8" spawntime="60"/>
+    <monster name="Cave Rat" x="1" y="-1" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="585" centery="1612" centerz="8" radius="1">
     <monster name="Ghoul" x="1" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="598" centery="1616" centerz="8" radius="1">
     <monster name="Necromancer" x="0" y="-1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="721" centery="1617" centerz="8" radius="1">
+    <monster name="Cave Rat" x="1" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="661" centery="1625" centerz="8" radius="1">
     <monster name="Wolf" x="0" y="0" z="8" spawntime="60"/>
@@ -981,6 +1062,102 @@
   <spawn centerx="433" centery="1510" centerz="9" radius="5">
     <monster name="Skeleton" x="3" y="1" z="9" spawntime="60"/>
   </spawn>
+  <spawn centerx="689" centery="1574" centerz="9" radius="1">
+    <monster name="Troll" x="1" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="683" centery="1577" centerz="9" radius="1">
+    <monster name="Troll" x="1" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="722" centery="1577" centerz="9" radius="1">
+    <monster name="Troll" x="0" y="1" z="9" spawntime="60"/>
+    <monster name="Rat" x="1" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="729" centery="1577" centerz="9" radius="1">
+    <monster name="Troll" x="0" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="705" centery="1580" centerz="9" radius="1"/>
+  <spawn centerx="715" centery="1580" centerz="9" radius="1">
+    <monster name="Troll" x="1" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="689" centery="1581" centerz="9" radius="1">
+    <monster name="Rat" x="-1" y="-1" z="9" spawntime="60"/>
+    <monster name="Troll" x="1" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="696" centery="1581" centerz="9" radius="1">
+    <monster name="Troll" x="1" y="0" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="713" centery="1582" centerz="9" radius="1">
+    <monster name="Troll" x="1" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="734" centery="1582" centerz="9" radius="1">
+    <monster name="Troll" x="0" y="-1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="711" centery="1583" centerz="9" radius="1">
+    <monster name="troll champion" x="0" y="-1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="716" centery="1584" centerz="9" radius="1">
+    <monster name="Troll" x="1" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="682" centery="1586" centerz="9" radius="1">
+    <monster name="Troll" x="0" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="699" centery="1587" centerz="9" radius="1">
+    <monster name="Troll" x="-1" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="731" centery="1589" centerz="9" radius="1">
+    <monster name="Troll" x="1" y="-1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="724" centery="1592" centerz="9" radius="1">
+    <monster name="Troll" x="-1" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="717" centery="1593" centerz="9" radius="1">
+    <monster name="Troll" x="1" y="-1" z="9" spawntime="60"/>
+    <monster name="Rat" x="-1" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="703" centery="1595" centerz="9" radius="1">
+    <monster name="Rat" x="0" y="-1" z="9" spawntime="60"/>
+    <monster name="Troll" x="-1" y="0" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="686" centery="1596" centerz="9" radius="1">
+    <monster name="Troll" x="1" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="721" centery="1596" centerz="9" radius="1">
+    <monster name="Troll" x="1" y="0" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="699" centery="1597" centerz="9" radius="1">
+    <monster name="Troll" x="-1" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="706" centery="1599" centerz="9" radius="1">
+    <monster name="Troll" x="1" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="683" centery="1602" centerz="9" radius="1">
+    <monster name="Troll" x="-1" y="0" z="9" spawntime="60"/>
+    <monster name="Bat" x="-1" y="1" z="9" spawntime="60"/>
+    <monster name="Troll" x="1" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="681" centery="1603" centerz="9" radius="1"/>
+  <spawn centerx="699" centery="1607" centerz="9" radius="1">
+    <monster name="Troll" x="-1" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="720" centery="1608" centerz="9" radius="1">
+    <monster name="Troll" x="0" y="-1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="705" centery="1609" centerz="9" radius="1">
+    <monster name="Rat" x="0" y="-1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="716" centery="1609" centerz="9" radius="1">
+    <monster name="Troll" x="1" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="696" centery="1614" centerz="9" radius="1">
+    <monster name="Troll" x="0" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="723" centery="1618" centerz="9" radius="1">
+    <monster name="Troll" x="-1" y="0" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="718" centery="1620" centerz="9" radius="1">
+    <monster name="Troll" x="1" y="0" z="9" spawntime="60"/>
+    <monster name="Rat" x="0" y="1" z="9" spawntime="60"/>
+  </spawn>
   <spawn centerx="793" centery="1624" centerz="9" radius="5">
     <monster name="Rotworm" x="5" y="-2" z="9" spawntime="60"/>
     <monster name="Carrion Worm" x="3" y="-1" z="9" spawntime="60"/>
@@ -1036,6 +1213,81 @@
   <spawn centerx="409" centery="1524" centerz="10" radius="3">
     <monster name="Minotaur" x="0" y="0" z="10" spawntime="60"/>
   </spawn>
+  <spawn centerx="697" centery="1574" centerz="10" radius="1">
+    <monster name="Troll" x="1" y="-1" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="699" centery="1575" centerz="10" radius="1">
+    <monster name="Troll" x="1" y="1" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="696" centery="1576" centerz="10" radius="1">
+    <monster name="Troll" x="1" y="1" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="698" centery="1579" centerz="10" radius="1">
+    <monster name="Troll" x="1" y="-1" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="717" centery="1590" centerz="10" radius="1">
+    <monster name="Troll" x="0" y="1" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="705" centery="1591" centerz="10" radius="1">
+    <monster name="Troll" x="-1" y="0" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="695" centery="1592" centerz="10" radius="1">
+    <monster name="Troll" x="1" y="0" z="10" spawntime="60"/>
+    <monster name="Bat" x="-1" y="1" z="10" spawntime="60"/>
+    <monster name="troll champion" x="1" y="1" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="712" centery="1593" centerz="10" radius="1">
+    <monster name="Troll" x="1" y="0" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="688" centery="1595" centerz="10" radius="1">
+    <monster name="Troll" x="1" y="0" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="715" centery="1595" centerz="10" radius="1">
+    <monster name="Troll" x="0" y="-1" z="10" spawntime="60"/>
+    <monster name="Bat" x="1" y="-1" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="682" centery="1601" centerz="10" radius="1">
+    <monster name="Troll" x="-1" y="1" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="711" centery="1603" centerz="10" radius="1">
+    <monster name="Troll" x="1" y="0" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="684" centery="1605" centerz="10" radius="1">
+    <monster name="Troll" x="1" y="1" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="679" centery="1606" centerz="10" radius="1">
+    <monster name="Bat" x="0" y="-1" z="10" spawntime="60"/>
+    <monster name="Troll" x="1" y="1" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="705" centery="1607" centerz="10" radius="1">
+    <monster name="troll champion" x="-1" y="-1" z="10" spawntime="60"/>
+    <monster name="Bat" x="1" y="-1" z="10" spawntime="60"/>
+    <monster name="Troll" x="0" y="1" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="687" centery="1609" centerz="10" radius="1">
+    <monster name="troll champion" x="-1" y="-1" z="10" spawntime="60"/>
+    <monster name="Troll" x="1" y="1" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="694" centery="1613" centerz="10" radius="1">
+    <monster name="Troll" x="1" y="0" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="699" centery="1613" centerz="10" radius="1">
+    <monster name="Troll" x="1" y="0" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="697" centery="1618" centerz="10" radius="1">
+    <monster name="Troll" x="1" y="0" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="721" centery="1618" centerz="10" radius="1">
+    <monster name="troll champion" x="-1" y="1" z="10" spawntime="60"/>
+    <monster name="Bat" x="1" y="1" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="716" centery="1620" centerz="10" radius="1">
+    <monster name="Bat" x="0" y="1" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="719" centery="1622" centerz="10" radius="1">
+    <monster name="Troll" x="-1" y="-1" z="10" spawntime="60"/>
+    <monster name="Troll" x="1" y="1" z="10" spawntime="60"/>
+  </spawn>
   <spawn centerx="804" centery="1773" centerz="10" radius="1"/>
   <spawn centerx="802" centery="1776" centerz="10" radius="1">
     <monster name="Giant Spider" x="1" y="-1" z="10" spawntime="60"/>
@@ -1052,6 +1304,34 @@
     <monster name="Rotworm" x="1" y="0" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="441" centery="1496" centerz="11" radius="5"/>
+  <spawn centerx="698" centery="1576" centerz="11" radius="1">
+    <monster name="troll legionnaire" x="1" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="695" centery="1577" centerz="11" radius="1">
+    <monster name="Troll" x="1" y="0" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="701" centery="1578" centerz="11" radius="1">
+    <monster name="Troll" x="0" y="-1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="698" centery="1580" centerz="11" radius="1">
+    <monster name="troll champion" x="0" y="-1" z="11" spawntime="60"/>
+    <monster name="Troll" x="1" y="0" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="682" centery="1602" centerz="11" radius="1">
+    <monster name="troll champion" x="-1" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="685" centery="1605" centerz="11" radius="1">
+    <monster name="troll champion" x="-1" y="0" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="681" centery="1606" centerz="11" radius="1">
+    <monster name="Troll" x="1" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="698" centery="1614" centerz="11" radius="1">
+    <monster name="troll champion" x="1" y="0" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="696" centery="1617" centerz="11" radius="1">
+    <monster name="troll champion" x="0" y="-1" z="11" spawntime="60"/>
+  </spawn>
   <spawn centerx="798" centery="1776" centerz="12" radius="1">
     <monster name="Giant Spider" x="0" y="1" z="12" spawntime="60"/>
   </spawn>
