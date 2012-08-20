@@ -685,6 +685,33 @@
   <spawn centerx="761" centery="1752" centerz="7" radius="1">
     <monster name="Cyclops Smith" x="-1" y="-1" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="821" centery="1753" centerz="7" radius="1">
+    <monster name="Tarantula" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="833" centery="1755" centerz="7" radius="1">
+    <monster name="Tarantula" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="802" centery="1761" centerz="7" radius="1">
+    <monster name="Tarantula" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="794" centery="1764" centerz="7" radius="1">
+    <monster name="Tarantula" x="1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="816" centery="1764" centerz="7" radius="1">
+    <monster name="Tarantula" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="828" centery="1765" centerz="7" radius="1">
+    <monster name="Tarantula" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="820" centery="1771" centerz="7" radius="1">
+    <monster name="Tarantula" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="797" centery="1772" centerz="7" radius="1">
+    <monster name="Tarantula" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="833" centery="1772" centerz="7" radius="1">
+    <monster name="Tarantula" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="548" centery="1029" centerz="8" radius="5">
     <monster name="Bear" x="1" y="0" z="8" spawntime="56"/>
     <monster name="Bear" x="3" y="1" z="8" spawntime="56"/>
@@ -775,6 +802,10 @@
   <spawn centerx="436" centery="1526" centerz="8" radius="5"/>
   <spawn centerx="445" centery="1532" centerz="8" radius="5">
     <monster name="Troll" x="0" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="724" centery="1553" centerz="8" radius="5">
+    <monster name="Troll" x="2" y="-3" z="8" spawntime="60"/>
+    <monster name="Troll" x="-2" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="600" centery="1566" centerz="8" radius="1">
     <monster name="Necromancer" x="0" y="1" z="8" spawntime="60"/>
@@ -1021,6 +1052,24 @@
     <monster name="Vampire" x="0" y="1" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="515" centery="1725" centerz="8" radius="5"/>
+  <spawn centerx="812" centery="1748" centerz="8" radius="1">
+    <monster name="Tarantula" x="-1" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="831" centery="1748" centerz="8" radius="1">
+    <monster name="Tarantula" x="1" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="821" centery="1752" centerz="8" radius="1">
+    <monster name="Tarantula" x="1" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="810" centery="1759" centerz="8" radius="1">
+    <monster name="Tarantula" x="1" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="832" centery="1760" centerz="8" radius="1">
+    <monster name="Tarantula" x="0" y="-1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="823" centery="1764" centerz="8" radius="1">
+    <monster name="Tarantula" x="1" y="0" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="800" centery="1787" centerz="8" radius="1">
     <monster name="Bog Raider" x="0" y="1" z="8" spawntime="60"/>
   </spawn>
@@ -1061,6 +1110,10 @@
   </spawn>
   <spawn centerx="433" centery="1510" centerz="9" radius="5">
     <monster name="Skeleton" x="3" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="725" centery="1555" centerz="9" radius="5">
+    <monster name="Troll" x="2" y="-2" z="9" spawntime="60"/>
+    <monster name="Troll" x="-2" y="0" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="689" centery="1574" centerz="9" radius="1">
     <monster name="Troll" x="1" y="1" z="9" spawntime="60"/>
@@ -1169,6 +1222,15 @@
     <monster name="Rotworm" x="1" y="1" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="799" centery="1632" centerz="9" radius="5"/>
+  <spawn centerx="818" centery="1762" centerz="9" radius="1">
+    <monster name="Tarantula" x="1" y="-1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="810" centery="1764" centerz="9" radius="1">
+    <monster name="Giant Spider" x="1" y="0" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="816" centery="1765" centerz="9" radius="1">
+    <monster name="Tarantula" x="0" y="-1" z="9" spawntime="60"/>
+  </spawn>
   <spawn centerx="801" centery="1771" centerz="9" radius="1">
     <monster name="Giant Spider" x="0" y="1" z="9" spawntime="60"/>
   </spawn>
@@ -1287,6 +1349,9 @@
   <spawn centerx="719" centery="1622" centerz="10" radius="1">
     <monster name="Troll" x="-1" y="-1" z="10" spawntime="60"/>
     <monster name="Troll" x="1" y="1" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="820" centery="1758" centerz="10" radius="1">
+    <monster name="Giant Spider" x="-1" y="0" z="10" spawntime="60"/>
   </spawn>
   <spawn centerx="804" centery="1773" centerz="10" radius="1"/>
   <spawn centerx="802" centery="1776" centerz="10" radius="1">
