@@ -18,51 +18,54 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="40" attack="40"/>
-		<attack name="lifedrain" interval="2000" chance="34" radius="1" target="0" min="-50" max="-250">
+		<attack name="melee" interval="2000" skill="40" attack="29" poison="40"/>
+		<attack name="lifedrain" interval="3000" chance="20" radius="1" target="0" min="-70" max="-150">
 			<attribute key="areaEffect" value="poison"/>
 		</attack>
-		<attack name="drunk" interval="1000" chance="15" range="7" radius="1" target="1">
+		<attack name="drunk" interval="2000" duration="7000" chance="12" range="7" radius="1" target="1">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
 	</attacks>
-	<defenses armor="20" defense="20">
+	<defenses armor="24" defense="25">
 		<defense name="healing" interval="1000" chance="25" min="50" max="70">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
-		<defense name="invisible" interval="3000" chance="15" duration="4000">
+		<defense name="invisible" interval="3000" chance="15" duration="3500">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
 	<elements>
 		<element holyPercent="30"/>
-		<element earthPercent="15"/>
-		<element icePercent="15"/>
-		<element energyPercent="-6"/>
+		<element earthPercent="40"/>
+		<element icePercent="20"/>
+		<element energyPercent="-5"/>
 		<element deathPercent="-5"/>
 	</elements>
 	<immunities>
 		<immunity invisible="1"/>
 	</immunities>
+	<voices speed="2000" chance="10">
+		<voice sentence="Feel the power of the cult!"/>
+		<voice sentence="Praise the voodoo!"/>
+		<voice sentence="Power to the cult!"/>
+	</voices>
 	<summons maxSummons="2">
 		<summon name="Ghoul" interval="2000" chance="10000"/>
 	</summons>
 	<loot>
-		<item id="2148" countmax="47" chance="100000"/><!-- gold coin -->
+		<item id="2148" countmax="57" chance="64450"/><!-- gold coin -->
 		<item id="2147" countmax="2" chance="4000"/><!-- small ruby -->
 		<item id="2169" chance="1000"/><!-- time ring -->
-		<item id="2169" chance="2222"/><!-- time ring -->
-		<item id="2423" chance="3333"/><!-- clerical mace -->
-		<item id="2655" chance="1428"/><!-- red robe -->
-		<item id="7451" chance="828"/><!-- shadow sceptre -->
-		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
-				<item id="5810" chance="555"/><!-- pirate voodoo doll -->
-				<item id="7426" chance="933"/><!-- amber staff -->
-				<item id="6087" chance="1428"/><!-- music sheet -->
-				<item id="5801" chance="909"/><!-- key ring -->
-				<item id="2183" chance="1000"/><!-- hailstorm rod -->
-			</inside>
-		</item>
+		<item id="2423" chance="4000"/><!-- clerical mace -->
+		<item id="2655" chance="1000"/><!-- red robe -->
+		<item id="5810" chance="2500"/><!-- pirate voodoo doll -->
+		<item id="7426" chance="900"/><!-- amber staff -->
+		<item id="6087" chance="1428"/><!-- music sheet -->
+		<item id="12608" chance="500"/><!-- broken key ring -->
+		<item id="2183" chance="700"/><!-- hailstorm rod -->
+		<item id="2170" chance="1250"/><!-- silver amulet -->
+		<item id="12448" chance="8000"/><!-- rope belt -->
+		<item id="10556" chance="6500"/><!-- cultish robe -->
+		<item id="7424" chance="400"/><!-- lunar staff -->
 	</loot>
 </monster>

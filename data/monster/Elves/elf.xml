@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Elf" nameDescription="a elf" race="blood" experience="42" speed="220" manacost="320">
+<monster name="Elf" nameDescription="a elf" race="blood" experience="42" speed="200" manacost="320">
 	<health now="100" max="100"/>
 	<look type="62" corpse="6003"/>
 	<targetchange interval="2000" chance="0"/>
@@ -14,19 +14,19 @@
 		<flag canpushitems="0"/>
 		<flag canpushcreatures="0"/>
 		<flag targetdistance="1"/>
-		<flag staticattack="90"/>
+		<flag staticattack="85"/>
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="20" attack="12"/>
-		<attack name="physical" interval="1000" chance="5" range="7" min="-15" max="-35">
+		<attack name="melee" interval="2000" skill="20" attack="18"/>
+		<attack name="physical" interval="1000" chance="10" range="7" skill="30" attack="20">
 			<attribute key="shootEffect" value="arrow"/>
 		</attack>
 	</attacks>
-	<defenses armor="6" defense="12"/>
+	<defenses armor="24" defense="13"/>
 	<elements>
 		<element holyPercent="28"/>
-		<element deathPercent="-10"/>
+		<element deathPercent="-1"/>
 	</elements>
 	<immunities>
 		<immunity invisible="1"/>
@@ -39,22 +39,15 @@
 		<voice sentence="Death to the defilers!"/>
 	</voices>
 	<loot>
-		<item id="3976" countmax="10" chance="50000"/><!-- worm -->
-		<item id="2148" countmax="15" chance="100000"/><!-- gold coin -->
-		<item id="2544" countmax="6" chance="800000"/><!-- arrow -->
-		<item id="2480" chance="10000"/><!-- legion helmet -->
-		<item id="2484" chance="20000"/><!-- studded armor -->
-		<item id="2478" chance="4000"/><!-- brass legs -->
-		<item id="2643" chance="25000"/><!-- leather boots -->
-		<item id="2005" chance="6666"/><!-- bucket -->
-		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
-				<item id="2397" chance="5000"/><!-- longsword -->
-				<item id="2674" countmax="4" chance="800000"/><!-- red apple -->
-				<item id="2642" chance="9000"/><!-- sandals -->
-				<item id="2456" chance="6666"/><!-- bow -->
-				<item id="5921" countmax="1" chance="5000"/><!-- heaven blossom -->
-			</inside>
-		</item>
+		<item id="2148" countmax="30" chance="45000"/><!-- gold coin -->
+		<item id="2544" countmax="6" chance="9400"/><!-- arrow -->
+		<item id="8839" countmax="2" chance="10000"/><!-- plum -->
+		<item id="2510" countmax="2" chance="8500"/><!-- plate shield -->
+		<item id="2484" chance="9500"/><!-- studded armor -->
+		<item id="2482" chance="9500"/><!-- studded helmet -->
+		<item id="2643" chance="14000"/><!-- leather boots -->
+		<item id="2397" chance="7000"/><!-- longsword -->
+		<item id="10552" countmax="1" chance="4000"/><!--- elvish talisman -->
+		<item id="2743" countmax="1" chance="2000"/><!--- heaven blossom -->
 	</loot>
 </monster>

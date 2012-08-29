@@ -10,7 +10,7 @@
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
-		<flag pushable="1"/>
+		<flag pushable="0"/>
 		<flag canpushitems="0"/>
 		<flag canpushcreatures="0"/>
 		<flag staticattack="90"/>
@@ -18,11 +18,11 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="3" attack="9"/>
+		<attack name="melee" interval="2000" skill="15" attack="9"/>
 	</attacks>
 	<defenses armor="2" defense="3"/>
 	<loot>
-		<item id="2148" countmax="10" chance="60000"/><!-- gold coin -->
-		<item id="3976" countmax="7" chance="53500"/><!-- worm -->
+		<item id="2148" countmax="11" chance="60000"/><!-- gold coin -->
+		<item id="3976" countmax="1" chance="53500"/><!-- worm -->
 	</loot>
 </monster>

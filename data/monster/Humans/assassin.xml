@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Assassin" nameDescription="an assassin" race="blood" experience="105" speed="200" manacost="450">
+	<health now="175" max="175"/>
+	<look type="152" head="95" body="95" legs="95" feet="95" addons="3" corpse="6080"/>
+	<targetchange interval="2000" chance="4"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="85"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="50" attack="27"/>
+		<attack name="physical" interval="1000" chance="13" range="7" skill="45" attack="30">
+			<attribute key="shootEffect" value="throwingstar"/>
+		</attack>
+		<attack name="drunk" interval="2000" chance="5" range="6" duration="60000">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+	</attacks>
+	<defenses armor="27" defense="24">
+		<defense name="invisible" interval="1000" chance="9" duration="3000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="-5"/>
+		<element deathPercent="-5"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Die!"/>
+		<voice sentence="Feel the hand of death!"/>
+		<voice sentence="You are on my deathlist!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="50" chance="45000"/><!-- gold coin -->
+		<item id="2403" countmax="1" chance="9999"/><!-- knife -->
+		<item id="2399" countmax="14" chance="7000"/><!-- throwing star -->
+		<item id="2050" countmax="2" chance="7777"/><!-- torch -->
+		<item id="2404" countmax="1" chance="4000"/><!-- combat knife -->
+		<item id="2457" countmax="1" chance="5000"/><!-- steel helmet -->
+		<item id="7366" countmax="8" chance="4655"/><!-- viper star -->
+		<item id="2513" countmax="1" chance="2000"/><!-- battle shield -->
+		<item id="2510" countmax="1" chance="2222"/><!-- plate shield -->
+		<item id="2509" countmax="1" chance="2111"/><!-- steel shield -->
+		<item id="3968" countmax="1" chance="1870"/><!-- leopard armor -->
+		<item id="2145" countmax="2" chance="999"/><!-- small diamond -->
+		<item id="3969" countmax="1" chance="500"/><!-- horseman helmet -->
+	</loot>
+</monster>

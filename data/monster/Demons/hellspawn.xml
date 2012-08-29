@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Hellspawn" nameDescription="a hellspawn" experience="2550" speed="360" race="blood" manacost="0">
+<monster name="Hellspawn" nameDescription="a hellspawn" experience="2550" speed="344" race="blood" manacost="0">
 	<health now="3500" max="3500"/>
 	<strategy attack="100" defense="0"/>
 	<targetchange speed="0" chance="8"/>
@@ -14,26 +14,32 @@
 		<flag canpushitems="1"/>
 		<flag canpushcreatures="1"/>
 		<flag targetdistance="1"/>
-		<flag staticattack="90"/>
+		<flag staticattack="75"/>
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" chance="100" min="-0" max="-360" range="1"/>
-		<attack name="fireball" interval="2000" chance="24" min="-60" max="-160"/>
-		<attack name="soulfire" interval="2000" chance="14"/> 
+		<attack name="melee" interval="2000" chance="100" skill="95" attack="64" range="1"/>
+		<attack name="fire" interval="2000" radius="4" target="1" chance="20" min="-150" max="-175">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="soulfire" interval="2000" chance="19"/> 
 	</attacks>	
-	<defenses armor="50" defense="55">
-		<defense name="healing" interval="1000" chance="15" min="60" max="230">
+	<defenses armor="45" defense="45">
+		<defense name="healing" interval="2000" chance="15" min="90" max="130">
 			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="2000" chance="15" speedchange="464" duration="3000">
+			<attribute key="areaEffect" value="greenshimmer"/>
 		</defense>
 	</defenses>
 	<elements>
-		<element physicalPercent="15"/>
-		<element energyPercent="15"/>
-		<element firePercent="20"/>
+		<element physicalPercent="20"/>
+		<element energyPercent="10"/>
+		<element firePercent="70"/>
 		<element deathPercent="-5"/>
+		<element earthPercent="80"/>
 		<element icePercent="-10"/>
-		<element holyPercent="10"/>
+		<element holyPercent="30"/>
 	</elements>
 	<immunities>
 		<immunity paralyze="1"/>
@@ -43,23 +49,27 @@
 		<voice sentence="Your fragile bones are like toothpicks to me." yell="1"/>		
 		<voice sentence="You little weasel will not live to see another day." yell="1"/>		
 		<voice sentence="I'm just a messenger of what's yet to come." yell="1"/>		
+		<voice sentence="HRAAAAAAAAAAAAAAAARRRR!" yell="1"/>		
+		<voice sentence="I'm taking you down with me!" yell="1"/>		
 	</voices>	 
 	<loot>
-		<item id="2666" countmax="6" chance="50000"/><!-- meat -->
-		<item id="7368" countmax="2" chance="5000"/><!-- assassin stars -->
-		<item id="6500" countmax="1" chance="3000"/><!-- demonic essence -->
-		<item id="2475" chance="200"/><!-- warrior helmet -->
-		<item id="2148" countmax="180" chance="100000"/><!-- gold coin -->
-		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
-				<item id="2394" chance="5000"/><!-- morning star -->
-				<item id="9970" countmax="4" chance="1500"/><!-- small topaz -->
-				<item id="2476" chance="200"/><!-- knight armor -->
-				<item id="2477" chance="200"/><!-- knight legs -->
-				<item id="7421" chance="200"/><!-- onyx fail -->
-				<item id="9948" chance="200"/><!-- dracoyle statue -->
-				<item id="9969" chance="300"/><!-- black skull -->
-			</inside>
-		</item>
+		<item id="2148" countmax="225" chance="99500"/><!-- gold coin -->
+		<item id="2513" countmax="1" chance="10100"/><!-- battle shield -->
+		<item id="2394" chance="9700"/><!-- morning star -->
+		<item id="7591" countmax="1" chance="7000"/><!-- great health potion -->
+		<item id="8473" countmax="1" chance="7000"/><!-- ultimate health potion -->
+		<item id="7368" countmax="2" chance="8500"/><!-- assassin star -->
+		<item id="6500" countmax="1" chance="4000"/><!-- demonic essence -->
+		<item id="9970" countmax="4" chance="3000"/><!-- small topaz -->
+		<item id="11221" countmax="1" chance="3000"/><!-- hellspawn tail -->
+		<item id="9809" countmax="1" chance="3000"/><!-- rusty armor (semi-rare) -->
+		<item id="2477" chance="2000"/><!-- knight legs -->
+		<item id="2475" chance="2200"/><!-- warrior helmet -->
+		<item id="7439" countmax="1" chance="1000"/><!-- berserk potion -->
+		<item id="7452" countmax="1" chance="900"/><!-- spiked squelcher -->
+		<item id="9810" countmax="1" chance="700"/><!-- rusty armor Rare -->
+		<item id="9969" chance="300"/><!-- black skull -->
+		<item id="9948" chance="200"/><!-- dracoyle statue -->
+		<item id="7421" countmax="1" chance="500"/><!-- onyx flail -->
 	</loot>
 </monster>

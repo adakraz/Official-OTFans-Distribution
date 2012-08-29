@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hunter" nameDescription="a hunter" race="blood" experience="150" speed="180" manacost="0">
+	<health now="150" max="150"/>
+	<look type="129" head="95" body="116" legs="121" feet="115" corpse="6080"/>
+	<targetchange interval="5000" chance="14"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="4"/>
+		<flag staticattack="85"/>
+		<flag runonhealth="30"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="40" attack="23"/>
+		<attack name="physical" interval="2000" chance="50" range="8" skill="80" attack="40">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="20"/>
+	<elements>
+		<element holyPercent="20"/>
+		<element physicalPercent="-10"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="Guess who we're hunting, hahaha!"/>
+		<voice sentence="Guess who we are hunting!"/>
+		<voice sentence="Bullseye!"/>
+		<voice sentence="You'll make a nice trophy!"/>
+	</voices>
+	<loot>
+		<item id="2544" countmax="22" chance="35000"/><!-- arrow -->
+		<item id="2675" countmax="2" chance="20000"/><!-- orange -->
+		<item id="2690" countmax="2" chance="17000"/><!-- roll -->
+		<item id="2460" countmax="1" chance="10000"/><!-- brass helmet -->
+		<item id="2546" countmax="3" chance="8000"/><!-- burst arrow -->
+		<item id="12425" countmax="1" chance="7500"/><!-- hunter's quiver -->
+		<item id="2545" countmax="4" chance="7000"/><!-- poison arrow -->
+		<item id="2456" countmax="1" chance="4500"/><!-- bow -->
+		<item id="2050" countmax="1" chance="5000"/><!-- torch -->
+		<item id="2465" countmax="1" chance="4300"/><!-- brass armor -->
+		<item id="2201" countmax="1" chance="2000"/><!-- dragon necklace -->
+		<item id="5907" countmax="1" chance="200"/><!-- slingshot -->
+		<item id="1884" countmax="1" chance="100"/><!-- wolf trophy -->
+		<item id="1896" countmax="1" chance="200"/><!-- lion trophy -->
+		<item id="5875" countmax="1" chance="999"/><!-- sniper gloves -->
+		<item id="2147" countmax="1" chance="500"/><!-- small ruby -->
+		<item id="1890" countmax="1" chance="100"/><!-- deer trophy -->
+	</loot>
+</monster>

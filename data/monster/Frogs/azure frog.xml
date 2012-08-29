@@ -10,10 +10,10 @@
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
-		<flag pushable="1"/>
+		<flag pushable="0"/>
 		<flag canpushitems="0"/>
 		<flag canpushcreatures="0"/>
-		<flag staticattack="90"/>
+		<flag staticattack="80"/>
 		<flag targetdistance="1"/>
 		<flag runonhealth="0"/>
 	</flags>
@@ -27,9 +27,10 @@
 	</elements>
 	<voices interval="5000" chance="10">
 		<voice sentence="Ribbit, ribbit!"/>
+		<voice sentence="Ribbit!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="9" chance="60000"/><!-- gold coin -->
-		<item id="3976" countmax="4" chance="53500"/><!-- worm -->
+		<item id="2148" countmax="11" chance="60000"/><!-- gold coin -->
+		<item id="3976" countmax="1" chance="20000"/><!-- worm -->
 	</loot>
 </monster>

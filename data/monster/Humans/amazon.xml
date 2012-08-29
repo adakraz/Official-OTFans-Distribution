@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Amazon" nameDescription="an amazon" race="blood" experience="60" speed="172" manacost="390">
+	<health now="110" max="110"/>
+	<look type="137" head="113" body="120" legs="114" feet="132" corpse="6081"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="4"/>
+		<flag staticattack="85"/>
+		<flag runonhealth="10"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="24" attack="20"/>
+		<attack name="physical" interval="2000" chance="30" range="7" skill="25" attack="20">
+			<attribute key="shootEffect" value="throwingknife"/>
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="25"/>
+	<elements>
+		<element physicalPercent="-5"/>
+		<element deathPercent="-5"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="Yeeee ha!"/>
+		<voice sentence="Your head shall be mine!"/>
+		<voice sentence="Your head will be mine!"/>
+	</voices>
+	<loot>
+	
+		<item id="2148" countmax="20" chance="40000"/><!-- gold coin -->
+		<item id="2379" chance="50000"/><!-- dagger -->
+		<item id="2385" chance="20000"/><!-- sabre -->
+		<item id="2229" countmax="2" chance="75000"/><!-- skull -->
+
+		<item id="2125" chance="5000"/><!-- crystal necklace -->
+		<item id="2147" chance="100"/><!-- small ruby -->
+		<item id="2691" countmax="1" chance="26000"/><!-- brown bread -->
+		<item id="2050" chance="1200"/><!-- torch -->
+
+		<item id="12399" chance="10000"/><!-- Girlish Hair Decoration -->
+		<item id="12400" chance="5000"/><!-- Protective Charm -->
+	</loot>
+</monster>

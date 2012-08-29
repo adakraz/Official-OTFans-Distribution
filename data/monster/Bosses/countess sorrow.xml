@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Countess Sorrow" nameDescription="a countess sorrow" race="undead" experience="5150" speed="250" manacost="0">
-	<health now="7200" max="7200"/>
+<monster name="Countess Sorrow" nameDescription="a countess sorrow" race="undead" experience="13000" speed="250" manacost="0">
+	<health now="6500" max="6500"/>
 	<look type="241" head="20" corpse="6344"/>
 	<targetchange interval="60000" chance="0"/>
 	<strategy attack="100" defense="0"/>
@@ -8,7 +8,7 @@
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="1"/>
+		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
@@ -18,20 +18,22 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="70" attack="90" poison="50"/>
-		<attack name="poison" interval="1000" chance="10" range="7" radius="4" target="1" min="-150" max="-350">
-			<attribute key="shootEffect" value="poison"/>
+		<attack name="melee" interval="2000" skill="90" attack="180" poison="50"/>
+		<attack name="lifedrain" interval="2000" chance="10" min="-500" max="-900" target="1">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="15" min="-300" max="-600" target="1" radius="4">
+			<attribute key="areaEffect" value="carniphila"/>
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="15" min="-200" max="-400" target="1" radius="3">
 			<attribute key="areaEffect" value="poison"/>
 		</attack>
-		<attack name="poisonfield" interval="1000" chance="17" range="7" radius="3" target="1">
-			<attribute key="shootEffect" value="poison"/>
-		</attack>
-		<attack name="manadrain" interval="1000" chance="25" range="7" min="-100" max="-400">
-			<attribute key="areaEffect" value="redshimmer"/>
+		<attack name="manadrain" interval="2000" chance="15" min="-100" max="-250" target="1" radius="4">
+			<attribute key="areaEffect" value="blueshimmer"/>
 		</attack>
 	</attacks>
 	<defenses armor="25" defense="20">
-		<defense name="healing" interval="1000" chance="50" min="409" max="812">
+		<defense name="healing" interval="1000" chance="50" min="250" max="800">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
@@ -49,5 +51,9 @@
 	</immunities>
 	<loot>
 		<item id="6536" chance="100000"/><!-- countess sorrow's frozen tear -->
+		<item id="2148" maxcount="200" chance="70000"/><!-- gold coin -->
+		<item id="2152" maxcount="2" chance="50000"/><!-- platinum coin -->
+		<item id="6500" chance="30000"/><!-- demonic essence -->
+		<item id="2200" chance="15000"/><!-- protection amulet -->
 	</loot>
 </monster>

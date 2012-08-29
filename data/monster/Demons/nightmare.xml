@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Nightmare" nameDescription="a nightmare" race="blood" experience="2150" speed="270" manacost="0">
+<monster name="Nightmare" nameDescription="a nightmare" race="blood" experience="2150" speed="464" manacost="0">
 	<health now="2700" max="2700"/>
 	<look type="245" corpse="6340"/>
 	<targetchange interval="5000" chance="8"/>
@@ -14,38 +14,39 @@
 		<flag canpushitems="1"/>
 		<flag canpushcreatures="1"/>
 		<flag targetdistance="1"/>
-		<flag staticattack="90"/>
-		<flag runonhealth="0"/>
+		<flag staticattack="75"/>
+		<flag runonhealth="200"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="-0" max="-150"/>
-		<attack name="energy" interval="2000" chance="20" range="7" radius="1" target="1" min="-130" max="-170">
-			<attribute key="shootEffect" value="fire"/>
-			<attribute key="areaEffect" value="energy"/>
+		<attack name="melee" interval="2000" skill="70" attack="47"/>
+		<attack name="death" interval="2000" chance="19" range="7" min="-130" max="-170">
+			<attribute key="areaEffect" value="mortarea"/>
+			<attribute key="shootEffect" value="death"/>
 		</attack>
-		<attack name="melee" interval="3000" chance="18" range="7" radius="4" target="1" min="-250" max="-400">
-			<attribute key="shootEffect" value="poison"/>
+		<attack name="poison" interval="2000" chance="19" range="7" radius="4" min="-250" max="-400">
 			<attribute key="areaEffect" value="poison"/>
+			<attribute key="shootEffect" value="poison"/>
 		</attack>
 	</attacks>
-	<defenses armor="25" defense="20">
-		<defense name="healing" interval="1000" chance="50" min="100" max="155">
+	<defenses armor="22" defense="30">
+		<defense name="healing" interval="4000" chance="20" min="99" max="120">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
-		<defense name="speed" interval="1000" chance="40" speedchange="360" duration="80000">
-			<attribute key="areaEffect" value="redshimmer"/>
+		<defense name="speed" interval="3000" chance="10" speedchange="500" duration="3800">
+			<attribute key="areaEffect" value="greenshimmer"/>
 		</defense>
 	</defenses>
 	<elements>
 		<element deathPercent="100"/>
-		<element firePercent="25"/>
+		<element firePercent="20"/>
 		<element energyPercent="20"/>
-		<element earthPercent="10"/>
+		<element earthPercent="100"/>
 		<element icePercent="10"/>
 		<element holyPercent="-25"/>
 	</elements>
 	<immunities>
 		<immunity invisible="1"/>
+		<immunity lifedrain="1"/>
 	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="Close your eyes... I want to show you something!"/>
@@ -56,27 +57,20 @@
 		<voice sentence="Weeeheeheeeheee!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
-		<item id="2152" countmax="3" chance="33333"/><!-- platinum coin -->
-		<item id="2666" countmax="3" chance="20000"/><!-- meat -->
-		<item id="2671" countmax="2" chance="50000"/><!-- ham -->
-		<item id="2230" chance="12500"/><!-- bone -->
-		<item id="7427" chance="3500"/><!-- chaos mace -->
+		<item id="2148" countmax="155" chance="80000"/><!-- gold coin -->
+		<item id="2671" countmax="2" chance="30000"/><!-- ham -->
+		<item id="5944" countmax="1" chance="8000"/><!-- soul orb -->
+		<item id="6558" countmax="2" chance="10000"/><!-- concentrated demonic blood -->
+		<item id="11223" countmax="1" chance="11500"/><!-- essence of a bad dream -->
+		<item id="6500" countmax="1" chance="9500"/><!-- demonic essence -->
+		<item id="11229" countmax="1" chance="9000"/><!-- scythe leg -->
+		<item id="2152" countmax="3" chance="6000"/><!-- platinum coin -->
+		<item id="6300" chance="5000"/><!-- death ring -->
 		<item id="2532" chance="4000"/><!-- ancient shield -->
-		<item id="6500" countmax="1" chance="2500"/><!-- demonic essence -->
-		<item id="2387" chance="3333"/><!-- double axe -->
-		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
-				<item id="7419" chance="1100"/><!-- dreaded cleaver -->
-				<item id="5944" countmax="1" chance="1818"/><!-- soul orb -->
-				<item id="2457" chance="2857"/><!-- steel helmet -->
-				<item id="6300" chance="1429"/><!-- death ring -->
-				<item id="2477" chance="3333"/><!-- knight legs -->
-				<item id="2195" chance="1800"/><!-- boots of haste -->
-				<item id="6529" countmax="5" chance="1000"/><!-- infernal bolt -->
-				<item id="6526" chance="1333"/><!-- skeleton decoration -->
-				<item id="5810" chance="667"/><!-- pirate voodoo doll -->
-			</inside>
-		</item>
+		<item id="2477" chance="1000"/><!-- knight legs -->
+		<item id="6526" chance="1000"/><!-- skeleton decoration -->
+		<item id="2195" chance="800"/><!-- boots of haste -->
+		<item id="2454" chance="500"/><!-- war axe -->
+		<item id="5670" chance="100"/><!-- enigmatic voodoo skull -->
 	</loot>
 </monster>

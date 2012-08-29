@@ -20,7 +20,7 @@
 	<attacks>
 		<attack name="melee" interval="2000" skill="22" attack="13"/>
 	</attacks>
-	<defenses armor="4" defense="8"/>
+	<defenses armor="12" defense="9"/>
 	<elements>
 		<element energyPercent="20"/>
 		<element holyPercent="10"/>
@@ -33,17 +33,14 @@
 		<voice sentence="Prek tars, dekklep zurk."/>
 	</voices>
 	<loot>
-		<item id="3976" countmax="10" chance="50000"/><!-- worm -->
-		<item id="2148" countmax="12" chance="100000"/><!-- gold coin -->
-		<item id="2666" countmax="2" chance="33333"/><!-- meat -->
-		<item id="2484" chance="10000"/><!-- studded armor -->
-		<item id="2480" chance="10000"/><!-- legion helmet -->
-		<item id="2385" chance="10000"/><!-- sabre -->
-		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
-				<item id="2526" chance="10000"/><!-- studded shield -->
-				<item id="2386" chance="10000"/><!-- axe -->
-			</inside>
-		</item>
+		<item id="2148" countmax="14" chance="40000"/><!-- gold coin -->
+		<item id="2666" countmax="1" chance="20000"/><!-- meat -->
+		<item id="2484" countmax="1" chance="11000"/><!-- studded armor -->
+		<item id="2526" countmax="1" chance="8000"/><!-- studded shield -->
+		<item id="2482" countmax="1" chance="8900"/><!-- studded helmet -->
+		<item id="2385" countmax="1" chance="8444"/><!-- sabre -->
+		<item id="2386" countmax="1" chance="7000"/><!-- axe -->
+		<item id="12435" countmax="1" chance="6666"/><!-- orc leather -->
+		<item id="11113" countmax="1" chance="1000"/><!-- orc tooth -->
 	</loot>
 </monster>

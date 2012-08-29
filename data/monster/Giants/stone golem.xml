@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Stone Golem" nameDescription="a stone golem" race="blood" experience="280" speed="180" manacost="590">
+	<health now="270" max="270"/>
+	<look type="67" corpse="6005"/>
+	<targetchange interval="5000" chance="13"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="85"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="50" attack="30"/>
+	</attacks>
+	<defenses armor="20" defense="30"/>
+	<elements>
+		<element physicalPercent="20"/>
+		<element firePercent="20"/>
+		<element energyPercent="15"/>
+		<element deathPercent="20"/>
+		<element icePercent="-10"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity earth="1"/>
+		<immunity drown="1"/>
+		<immunity paralyze="1"/>
+	</immunities>
+	<loot>
+		<item id="2148" countmax="15" chance="16000"/><!-- gold coin -->
+		<item id="1294" countmax="4" chance="12000"/><!-- small stone -->
+		<item id="11232" countmax="1" chance="10000"/><!-- sulphurous stone -->
+		<item id="2166" countmax="1" chance="5130"/><!-- power ring -->
+		<item id="5880" countmax="1" chance="3000"/><!-- iron ore -->
+		<item id="2395" countmax="1" chance="1500"/><!-- carlin sword -->
+		<item id="2348" countmax="1" chance="999"/><!-- ancient rune -->
+		<item id="11227" countmax="1" chance="1000"/><!-- shiny stone -->
+		<item id="11343" countmax="1" chance="1100"/><!-- piece of marble rock -->
+		<item id="2124" countmax="1" chance="500"/><!-- crystal ring -->
+		<item id="2156" countmax="1" chance="400"/><!-- red gem -->
+	</loot>
+</monster>

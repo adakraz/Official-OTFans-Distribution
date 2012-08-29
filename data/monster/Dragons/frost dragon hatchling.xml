@@ -18,10 +18,10 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="60" attack="40"/>
-		<attack name="ice" interval="1000" chance="12" length="8" spread="3" min="-50" max="-160">
+		<attack name="ice" interval="2000" chance="12" length="8" spread="3" min="-50" max="-160">
 			<attribute key="areaEffect" value="firearea"/>
 		</attack>
-		<attack name="ice" interval="1000" chance="15" range="7" min="-60" max="-120">
+		<attack name="ice" interval="2000" chance="15" range="7" min="-60" max="-120">
 			<attribute key="shootEffect" value="ice"/>
 		</attack>
 	</attacks>
@@ -38,18 +38,15 @@
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 	</immunities>
-	<voices interval="5000" chance="50">
+	<voices interval="5000" chance="10">
 		<voice sentence="Rooawwrr" yell="0"/>
 		<voice sentence="Fchu?" yell="0"/>
 	</voices>
 	<loot>
-		<item id="7618" countmax="1" chance="5000"/><!-- health potion -->
-		<item id="2672" countmax="1" chance="5000"/><!-- dragon ham -->
-		<item id="2148" countmax="26" chance="100000"/><!-- gold coin -->
-		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
-				<item id="2148" countmax="25" chance="100000"/><!-- gold coin -->
-			</inside>
-		</item>
+		<item id="7618" countmax="1" chance="2000"/><!-- health potion -->
+		<item id="2672" countmax="1" chance="40000"/><!-- dragon ham -->
+		<item id="2148" countmax="55" chance="70000"/><!-- gold coin -->
+		<item id="10578" countmax="1" chance="6000"/><!-- frosty heart -->
+		<item id="8900" countmax="1" chance="1000"/><!-- spellbook of enlightenment -->
 	</loot>
 </monster>

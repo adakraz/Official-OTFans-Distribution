@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Jagged Earth Elemental" nameDescription="a jagged earth elemental" race="undead" experience="1300" speed="370" manacost="0">
+	<health now="1617" max="1617"/>
+	<look type="285" corpse="8933"/>
+	<targetchange interval="20000" chance="50"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag staticattack="80"/>
+		<flag lightlevel="0"/>
+		<flag lightcolor="0"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" chance="100" skill="95" attack="95"/>
+		<attack name="speed" interval="3000" chance="10" speedchange="-800">
+			<attribute key="areaEffect" value="bigplants"/>
+		</attack>
+		<attack name="poisoncondition" interval="2000" target="0" length="5" spread="3" chance="15" min="-10" max="-10">
+			<attribute key="areaEffect" value="plantattack"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="10" radius="2" target="1" min="-100" max="-250">
+			<attribute key="areaEffect" value="stones"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="11" target="1" range="7" radius="6" min="-100" max="-200">
+			<attribute key="shootEffect" value="smallearth"/>
+			<attribute key="areaEffect" value="smallplants"/>
+		</attack>
+	</attacks>
+	<defenses armor="45" defense="45"/>
+	<elements>
+		<element deathPercent="45"/>
+		<element icePercent="20"/>
+		<element energyPercent="85"/>
+		<element firePercent="-15"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+		<immunity earth="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="STOMP STOMP"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="180" chance="85200"/><!-- gold coin -->
+		<item id="2244" countmax="1" chance="30000"/><!-- some leaves -->
+		<item id="2245" countmax="1" chance="30000"/><!-- twigs -->
+		<item id="8298" chance="6000"/><!-- natural soil -->
+		<item id="11222" chance="15000"/><!-- lump of earth -->
+		<item id="1294" countmax="10" chance="7000"/><!-- small stone -->
+		<item id="2149" countmax="2" chance="5000"/><!-- small emerald -->
+		<item id="7732" countmax="1" chance="1200"/><!-- seeds -->
+		<item id="5880" chance="1300"/><!-- iron ore -->
+		<item id="11339" chance="1220"/><!-- clay lump -->
+	</loot>
+</monster>

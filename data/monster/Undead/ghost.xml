@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ghost" nameDescription="a ghost" race="undead" experience="120" speed="160" manacost="100">
+	<health now="150" max="150"/>
+	<look type="48" corpse="5993"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="45" attack="24"/>
+		<attack name="lifedrain" interval="2000" chance="10" range="1" min="-20" max="-45"/>
+	</attacks>
+	<defenses armor="10" defense="10"/>
+	<elements>
+		<element physicalPercent="100"/>
+		<element earthPercent="100"/>
+		<element deathPercent="100"/>
+		<element holyPercent="-20"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity drown="1"/>
+		<immunity paralyze="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Huh!"/>
+		<voice sentence="Shhhhhh"/>
+		<voice sentence="Buuuuuh"/>
+	</voices>
+	<loot>
+		<item id="2804" countmax="1" chance="13700"/><!-- shadow herb -->
+		<item id="2394" countmax="1" chance="10000"/><!-- morning star -->
+		<item id="2654" countmax="1" chance="9150"/><!-- cape -->
+		<item id="2404" countmax="1" chance="6000"/><!-- combat knife -->
+		<item id="5909" countmax="1" chance="2100"/><!-- white piece of cloth -->
+		<item id="10607" countmax="1" chance="1950"/><!-- ghostly tissue -->
+		<item id="2532" countmax="1" chance="1000"/><!-- ancient shield -->
+		<item id="2165" countmax="1" chance="240"/><!-- stealth ring -->
+	</loot>
+</monster>

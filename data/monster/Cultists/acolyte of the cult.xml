@@ -13,31 +13,29 @@
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
 		<flag canpushcreatures="0"/>
-		<flag staticattack="90"/>
+		<flag staticattack="85"/>
 		<flag targetdistance="5"/>
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="50" max="105" poison="150"/>
-		<attack name="lifedrain" interval="3000" chance="17" range="7" radius="1" target="1" min="-10" max="-100">
+		<attack name="melee" interval="2000" skill="45" attack="23"/>
+		<attack name="Acolyte Poison" interval="2000" target="1"/>
+		<attack name="lifedrain" interval="2000" chance="20" range="7" radius="1" target="1" min="-60" max="-120">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
-		<attack name="poison" interval="2000" chance="17" range="7" radius="1" target="1" min="-50" max="-185">
-			<attribute key="areaEffect" value="poison"/>
-		</attack>
-		<attack name="drunk" interval="1000" chance="15" range="7" radius="1" target="1">
+		<attack name="drunk" interval="2000" duration="3000" chance="20" range="5" radius="1" target="1">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
 	</attacks>
-	<defenses armor="10" defense="20">
-		<defense name="healing" interval="1000" chance="25" min="30" max="50">
+	<defenses armor="15" defense="23">
+		<defense name="healing" interval="2000" chance="25" min="45" max="50">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
 	<elements>
 		<element holyPercent="20"/>
-		<element earthPercent="10"/>
-		<element icePercent="10"/>
+		<element earthPercent="20"/>
+		<element icePercent="20"/>
 		<element physicalPercent="-10"/>
 		<element energyPercent="-10"/>
 		<element deathPercent="-5"/>
@@ -45,27 +43,26 @@
 	<immunities>
 		<immunity invisible="1"/>
 	</immunities>
-	<summons maxSummons="2">
+	<summons maxSummons="1">
 		<summon name="Skeleton" interval="2000" chance="10000"/>
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="Praise voodoo!"/>
+		<voice sentence="Praise the voodoo!"/>
+		<voice sentence="Power to the cult!"/>
+		<voice sentence="Feel the power of the cult!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="54" chance="40000"/><!-- gold coin -->
-		<item id="2149" countmax="1" chance="2000"/><!-- small emerald -->
-		<item id="2201" chance="1793"/><!-- dragon necklace -->
-		<item id="6087" chance="1428"/><!-- music sheet -->
-		<item id="2394" chance="3333"/><!-- morning star -->
-		<item id="2169" chance="1000"/><!-- time ring -->
-		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
-				<item id="2181" chance="1333"/><!-- terra rod -->
-				<item id="2168" chance="1428"/><!-- life ring -->
-				<item id="5810" chance="555"/><!-- pirate voodoo doll -->
-				<item id="2652" chance="1666"/><!-- green tunic -->
-				<item id="5801" chance="909"/><!-- key ring -->
-			</inside>
-		</item>
+		<item id="2148" countmax="40" chance="45000"/><!-- gold coin -->
+		<item id="2394" chance="5333"/><!-- morning star -->
+		<item id="2201" chance="3000"/><!-- dragon necklace -->
+		<item id="5810" chance="1050"/><!-- pirate voodoo doll -->
+		<item id="2168" chance="999"/><!-- life ring -->
+		<item id="6087" chance="1000"/><!-- music sheet -->
+		<item id="2149" chance="2000"/><!-- small emerald -->
+		<item id="2181" chance="1333"/><!-- terra rod -->
+		<item id="12448" chance="7000"/><!-- rope belt -->
+		<item id="10556" chance="5000"/><!-- cultish robe -->
+		<item id="12411" chance="1333"/><!-- cultish symbol -->
+		<item id="12608" chance="200"/><!-- broken key ring -->
 	</loot>
 </monster>

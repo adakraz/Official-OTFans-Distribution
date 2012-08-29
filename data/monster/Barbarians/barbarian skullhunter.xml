@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Barbarian Skullhunter" nameDescription="a barbarian skullhunter" race="blood" experience="85" speed="270" manacost="450">
+<monster name="Barbarian Skullhunter" nameDescription="a barbarian skullhunter" race="blood" experience="85" speed="168" manacost="450">
 	<health now="135" max="135"/>
 	<look type="254" head="0" body="77" legs="77" feet="114" corpse="6080"/>
 	<targetchange interval="60000" chance="0"/>
@@ -19,9 +19,9 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="-30" max="-80"/>
+		<attack name="melee" interval="2000" skill="45" attack="23"/>
 	</attacks>
-	<defenses armor="30" defense="30"/>
+	<defenses armor="28" defense="24"/>
 	<elements>
 		<element icePercent="50"/>
 		<element holyPercent="10"/>
@@ -40,12 +40,17 @@
 		<voice sentence="Show that you are a worthy opponent."/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="30" chance="33333"/><!-- gold coin -->
-		<item id="2403" chance="10000"/><!-- knife -->
+		<item id="2148" countmax="30" chance="45000"/><!-- gold coin -->
+		<item id="2403" chance="7000"/><!-- knife -->
 		<item id="2460" chance="10000"/><!-- brass helmet -->
-		<item id="2050" chance="10000"/><!-- torch -->
-		<item id="2168" chance="333"/><!-- life ring -->
-		<item id="7462" chance="900"/><!-- ragnir helmet -->
-		<item id="7449" chance="100"/><!-- crystal sword -->
+		<item id="2050" chance="8000"/><!-- torch -->
+		<item id="2168" chance="800"/><!-- life ring -->
+		<item id="7462" chance="333"/><!-- ragnir helmet -->
+		<item id="7449" chance="200"/><!-- crystal sword -->
+		<item id="2473" chance="6500"/><!-- viking helmet -->
+		<item id="2483" chance="4000"/><!-- scale armor -->
+		<item id="2320" chance="4200"/><!-- skull -->
+		<item id="5913" chance="3333"/><!-- brown piece of cloth -->
+		<item id="7618" chance="1000"/><!-- health potion -->
 	</loot>
 </monster>

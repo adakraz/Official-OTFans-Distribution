@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Overcharged Energy Element" nameDescription="an orvercharged energy element" race="undead" experience="1300" speed="430" manacost="0">
+	<health now="1300" max="1300"/>
+	<look type="290" corpse="8966"/>
+	<targetchange interval="2000" chance="15"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag staticattack="85"/>
+		<flag lightlevel="0"/>
+		<flag lightcolor="0"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="90" attack="50"/>
+		<attack name="energy" interval="2000" chance="20" target="1" radius="1" min="-150" max="-420">
+			<attribute key="shootEffect" value="energy"/>
+			<attribute key="areaEffect" value="purpleenergy"/>
+		</attack>
+		<attack name="energy" interval="1000" chance="17" range="7" target="1" min="-100" max="-250">
+			<attribute key="shootEffect" value="energy"/>
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+	</attacks>
+	<defenses armor="60" defense="60">
+	</defenses>
+	<elements>
+		<element earthPercent="-20"/>
+	</elements>
+	<immunities>
+		<immunity ice="1"/>
+		<immunity energy="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot>
+		<item id="2148" countmax="130" chance="70000"/><!-- gold coin -->
+		<item id="8303" chance="5000" countmax="1"/><!-- energy soil -->
+		<item id="2150" countmax="2" chance="3000"/><!-- small amethyst -->
+		<item id="7439" chance="2100"/><!-- berserk potion -->
+		<item id="7591" countmax="1" chance="7000"/><!-- great health potion -->
+		<item id="2214" countmax="1" chance="2000"/><!-- ring of healing -->
+		<item id="8920" chance="400"/><!-- wand of starstorm -->
+	</loot>
+</monster>

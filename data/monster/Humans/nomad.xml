@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Nomad" nameDescription="a nomad" race="blood" experience="60" speed="190" manacost="420">
+	<health now="160" max="160"/>
+	<look type="146" head="114" body="20" legs="22" feet="2" corpse="6080"/>
+	<targetchange interval="5000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="15"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="45" attack="27"/>
+	</attacks>
+	<defenses armor="30" defense="20"/>
+	<elements>
+		<element firePercent="20"/>
+		<element holyPercent="10"/>
+		<element physicalPercent="-10"/>
+		<element icePercent="-10"/>
+		<element deathPercent="-5"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="We are the true sons of the desert!"/>
+		<voice sentence="I will leave your remains to the vultures!"/>
+		<voice sentence="We are swift as the wind of the desert!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="39" chance="35000"/><!-- gold coin -->
+		<item id="12448" countmax="1" chance="12000"/><!-- rope belt -->
+		<item id="2386" countmax="1" chance="5000"/><!-- axe -->
+		<item id="2465" countmax="1" chance="4300"/><!-- brass armor -->
+		<item id="12412" countmax="1" chance="4000"/><!-- dirty turban -->
+		<item id="2398" countmax="1" chance="5333"/><!-- mace -->
+		<item id="8838" countmax="3" chance="4222"/><!-- potato -->
+		<item id="2509" countmax="1" chance="1300"/><!-- steel shield -->
+		<item id="2459" countmax="1" chance="800"/><!-- iron helmet -->
+		<item id="1948" countmax="1" chance="500"/><!-- parchment -->
+	</loot>
+</monster>

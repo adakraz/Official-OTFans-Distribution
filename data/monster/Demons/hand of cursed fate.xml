@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Hand of Cursed Fate" nameDescription="a hand of cursed fate" race="blood" experience="3850" speed="250" manacost="0">
-	<health now="10500" max="10500"/>
+<monster name="Hand of Cursed Fate" nameDescription="a hand of cursed fate" race="blood" experience="5000" speed="260" manacost="0">
+	<health now="7500" max="7500"/>
 	<look type="230" corpse="6312"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
@@ -18,24 +18,24 @@
 		<flag runonhealth="3100"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="-0" max="-800"/>
-		<attack name="manadrain" interval="2000" chance="25" range="7" min="-150" max="-800">
+		<attack name="melee" interval="2000" chance="100" skill="130" attack="70" poison="190"/>
+		<attack name="manadrain" interval="2000" chance="15" range="3" min="-150" max="-950">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</attack>
-		<attack name="drunk" interval="1000" chance="12" range="1" target="1"/>
+		<attack name="drunk" interval="1000" chance="12" range="1" target="1" duration="7000"/>
+		<attack name="lifedrain" interval="2000" chance="15" range="3" min="-440" max="-880">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
 	</attacks>
 	<defenses armor="25" defense="35">
-		<defense name="speed" interval="3000" chance="12" speedchange="380" duration="8000">
-			<attribute key="areaEffect" value="redshimmer"/>
+		<defense name="speed" interval="3000" chance="12" speedchange="980" duration="5000">
+			<attribute key="areaEffect" value="greenshimmer"/>
 		</defense>
-		<defense name="invisible" interval="4000" chance="50" duration="6000">
-			<attribute key="areaEffect" value="redshimmer"/>
-		</defense>
-		<defense name="healing" interval="2000" chance="50" min="100" max="250">
+		<defense name="invisible" interval="4000" chance="30" duration="6000">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
-		<defense name="speed" interval="1000" chance="35" speedchange="370" duration="30000">
-			<attribute key="areaEffect" value="redshimmer"/>
+		<defense name="healing" interval="3000" chance="50" min="100" max="250">
+			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
 	<elements>
@@ -43,24 +43,30 @@
 		<element firePercent="100"/>
 		<element energyPercent="100"/>
 		<element earthPercent="100"/>
-		<element icePercent="-40"/>
-		<element holyPercent="-35"/>
+		<element icePercent="-10"/>
+		<element holyPercent="-25"/>
 	</elements>
 	<immunities>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 	</immunities>
 	<loot>
-		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
+		<item id="2148" countmax="200" chance="75000"/><!-- gold coin -->
+		<item id="2152" countmax="5" chance="9500"/><!-- platinum coin -->
+		<item id="2146" countmax="4" chance="13000"/><!-- small sapphire -->
 		<item id="2654" chance="35000"/><!-- cape -->
-		<item id="2152" countmax="1" chance="50000"/><!-- platinum coin -->
-		<item id="2187" chance="1111"/><!-- wand of inferno -->
-		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
-				<item id="2148" countmax="65" chance="100000"/><!-- gold coin -->
-				<item id="6500" countmax="1" chance="2500"/><!-- demonic essence -->
-				<item id="2153" chance="1666"/><!-- violet gem -->
-			</inside>
-		</item>
+		<item id="2178" countmax="1" chance="7350"/><!-- mind stone -->
+		<item id="2127" countmax="1" chance="6200"/><!-- emerald bangle -->
+		<item id="6558" countmax="4" chance="10002"/><!-- concentrated demonic blood -->
+		<item id="6500" countmax="1" chance="7000"/><!-- demonic essence -->
+		<item id="2171" countmax="1" chance="6700"/><!-- platinum amulet -->
+		<item id="2187" chance="5000"/><!-- wand of inferno -->
+		<item id="2476" countmax="1" chance="5500"/><!-- knight armor -->
+		<item id="2436" countmax="1" chance="4950"/><!-- skull staff -->
+		<item id="9971" countmax="1" chance="980"/><!-- gold ingot -->
+		<item id="2487" countmax="1" chance="1200"/><!-- crown armor -->
+		<item id="2153" chance="500"/><!-- violet gem -->
+		<item id="5799" countmax="1" chance="100"/><!-- golden figurine -->
+		<item id="7414" countmax="1" chance="300"/><!-- abyss hammer -->
 	</loot>
 </monster>

@@ -33,7 +33,7 @@
 		<voice sentence="Gruntz!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="12" chance="6000"/><!-- gold coin -->
+		<item id="2148" countmax="12" chance="30000"/><!-- gold coin -->
 		<item id="2380" chance="1800"/><!-- hand axe -->
 		<item id="2643" chance="1000"/><!-- leather boots -->
 		<item id="2461" chance="1000"/><!-- leather helmet -->

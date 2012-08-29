@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Sibang" nameDescription="a sibang" race="blood" experience="105" speed="220" manacost="0">
+<monster name="Sibang" nameDescription="a sibang" race="blood" experience="105" speed="215" manacost="0">
 	<health now="225" max="225"/>
 	<look type="118" corpse="6045"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="5000" chance="14"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -14,17 +14,17 @@
 		<flag canpushitems="1"/>
 		<flag canpushcreatures="0"/>
 		<flag targetdistance="4"/>
-		<flag staticattack="90"/>
+		<flag staticattack="85"/>
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="-20" max="-40"/>
-		<attack name="physical" interval="1000" chance="25" range="7" min="-20" max="-55">
+		<attack name="melee" interval="2000" skill="45" attack="20"/>
+		<attack name="physical" interval="2000" chance="40" range="7" skill="50" attack="25">
 			<attribute key="shootEffect" value="smallstone"/>
 		</attack>
 	</attacks>
-	<defenses armor="15" defense="12">
-		<defense name="speed" interval="1000" chance="12" speedchange="240" duration="3000">
+	<defenses armor="22" defense="18">
+		<defense name="speed" interval="2000" chance="10" speedchange="256" duration="3000">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</defense>
 	</defenses>
@@ -35,8 +35,6 @@
 		<element deathPercent="-5"/>
 	</elements>
 	<immunities>
-		<immunity lifedrain="0"/>
-		<immunity paralyze="0"/>
 		<immunity outfit="1"/>
 		<immunity drunk="1"/>
 		<immunity invisible="1"/>
@@ -47,12 +45,14 @@
 		<voice sentence="Ahhuuaaa!"/>
 	</voices>
 	<loot>
-		<item id="2678" countmax="5" chance="5000"/><!-- coconut -->
-		<item id="2148" countmax="50" chance="100000"/><!-- gold coin -->
-		<item id="2675" countmax="5" chance="6667"/><!-- orange -->
-		<item id="2682" chance="2857"/><!-- melon -->
+		<item id="2678" countmax="3" chance="4000"/><!-- coconut -->
+		<item id="2148" countmax="35" chance="45000"/><!-- gold coin -->
+		<item id="2675" countmax="5" chance="9000"/><!-- orange -->
+		<item id="2676" countmax="12" chance="12000"/><!-- banana -->
+		<item id="2682" chance="2500"/><!-- melon -->
 		<item id="2458" chance="3333"/><!-- chain helmet -->
-		<item id="1294" countmax="3" chance="2500"/><!-- small stone -->
-		<item id="5883" chance="1000"/><!-- ape fur -->
+		<item id="12467" chance="4333"/><!-- banana sash -->
+		<item id="1294" countmax="3" chance="5000"/><!-- small stone -->
+		<item id="5883" chance="1200"/><!-- ape fur -->
 	</loot>
 </monster>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="War Golem" nameDescription="a war golem" race="energy" experience="2750" speed="320" manacost="0">
+	<health now="4300" max="4300"/>
+	<look type="326" corpse="10005"/>
+	<targetchange interval="5000" chance="5"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="130" attack="50"/>
+		<attack name="energy" interval="2000" chance="15" range="7" min="-165" max="-220">
+			<attribute key="shootEffect" value="energy"/>
+		</attack>
+		<attack name="skills" interval="2000" chance="10" target="0" length="7" spread="0" shielding="-15" duration="7000">
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+		<attack name="energycondition" interval="2000" chance="7" min="0" max="-25">
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+		<attack name="outfit" interval="1000" chance="9" range="7" monster="skeleton" duration="5000">
+			<attribute key="areaeffect" value="blueshimmer"/>
+		</attack>
+	</attacks>
+	<defenses armor="45" defense="38">
+		<defense name="speed" interval="1000" chance="7" speedchange="494" duration="8000">
+			<attribute key="areaEffect" value="greenshimmer"/>
+		</defense>
+		<defense name="healing" interval="2000" chance="20" min="100" max="300">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element earthPercent="50"/>
+		<element holyPercent="50"/>
+		<element firePercent="15"/>
+		<element energyPercent="5"/>
+		<element physicalPercent="25"/>
+		<element icePercent="30"/>
+		<element deathPercent="25"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity paralyze="1"/>
+	</immunities>
+	<voices interval="2500" chance="10">
+		<voice sentence="Azerus barada nikto!"/>
+		<voice sentence="Klonk klonk klonk"/>
+		<voice sentence="Engaging Enemy!"/>
+		<voice sentence="Threat level processed."/>
+		<voice sentence="Charging weapon systems!"/>
+		<voice sentence="Auto repair in progress."/>
+		<voice sentence="The battle is joined!"/>
+		<voice sentence="Termination initialized!"/>
+		<voice sentence="Rrrtttarrrttarrrtta"/>		
+	</voices>
+	<loot>
+		<item id="2148" countmax="223" chance="99000"/><!-- gold coin -->
+		<item id="8473" countmax="1" chance="8800"/><!-- ultimate health potion -->
+		<item id="2510" countmax="1" chance="9000"/><!-- plate shield -->
+		<item id="7590" countmax="1" chance="9210"/><!-- great mana potion -->
+		<item id="10571" countmax="1" chance="4500"/><!-- war crystal -->
+		<item id="2394" countmax="1" chance="8000"/><!-- morning star -->
+		<item id="2438" countmax="1" chance="4000"/><!-- epee -->
+		<item id="2513" countmax="1" chance="8000"/><!-- battle shield -->
+		<item id="2377" countmax="1" chance="7000"/><!-- two handed sword -->
+		<item id="9809" countmax="1" chance="4000"/><!-- rusty armor (semi-rare) -->
+		<item id="5880" countmax="1" chance="6000"/><!-- iron ore -->
+		<item id="2213" countmax="1" chance="1100"/><!-- dwarven ring -->
+		<item id="9976" countmax="1" chance="1070"/><!-- crystal pedestal -->
+		<item id="7439" countmax="1" chance="3000"/><!-- berserk potion -->
+		<item id="2177" countmax="1" chance="200"/><!-- life crystal -->
+		<item id="2209" countmax="1" chance="1200"/><!-- club ring -->
+		<item id="7428" countmax="1" chance="300"/><!-- bonebreaker -->
+		<item id="2645" countmax="1" chance="600"/><!-- steel boots -->
+		<item id="9980" countmax="1" chance="200"/><!-- crystal of power -->
+		<item id="7893" countmax="1" chance="600"/><!-- lightning boots -->
+		<item id="7403" countmax="1" chance="200"/><!-- berserker -->
+		<item id="7422" countmax="1" chance="220"/><!-- jade hammer -->
+		<item id="8309" countmax="5" chance="9000"/><!-- nail -->
+		<!-- item id="" chance="50" Tin Key -->
+	</loot>
+</monster>

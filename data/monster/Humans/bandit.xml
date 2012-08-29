@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Bandit" nameDescription="a bandit" race="blood" experience="65" speed="180" manacost="450">
+	<health now="245" max="245"/>
+	<look type="129" head="58" body="59" legs="45" feet="114" corpse="6080"/>
+	<targetchange interval="3000" chance="17"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="85"/>
+		<flag runonhealth="25"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="40" attack="25"/>
+	</attacks>
+	<defenses armor="26" defense="20"/>
+	<elements>
+		<element physicalPercent="-10"/>
+		<element deathPercent="-5"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="Your money or your life!"/>
+		<voice sentence="Hand me your purse!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="30" chance="45000"/><!-- gold coin -->
+		<item id="2685" countmax="3" chance="9000"/><!-- tomato -->
+		<item id="2386" countmax="1" chance="8888"/><!-- axe -->
+		<item id="2398" countmax="1" chance="7000"/><!-- mace -->
+		<item id="2458" countmax="1" chance="6100"/><!-- chain helmet -->
+		<item id="2649" countmax="1" chance="7999"/><!-- leather legs -->
+		<item id="2511" countmax="1" chance="7600"/><!-- brass shield -->
+		<item id="2465" countmax="1" chance="4000"/><!-- brass armor -->
+		<item id="2459" countmax="1" chance="3000"/><!-- iron helmet -->
+	</loot>
+</monster>

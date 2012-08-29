@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<monster name="Chicken" nameDescription="a chicken" manacost="220" speed="165" race="Blood">
+  <health now="15" max="15"/>
+  <look type="111" corpse="6042"/>
+  <strategy attack="100"/>
+  <targetchange speed="8" chance="8"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag hostile="1"/>
+    <flag attackable="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="15"/>
+  </flags>
+  <attacks>
+  </attacks>
+  <defenses defense="2" armor="1"/>
+  <immunities/>
+  <voices speed="0" chance="10">
+    <voice sentence="Cluck Cluck"/>
+    <voice sentence="Gokgoooook"/>
+  </voices>
+  <elements/>
+  <loot>
+    <item id="2695" countmax="1" chance="5000"/><!-- egg -->
+    <item id="3976" countmax="3" chance="10000"/><!-- worm -->
+    <item id="5890" countmax="1" chance="20000"/><!-- chicken feather -->
+	<item id="2666" chance="3000"/><!-- Meat -->
+  </loot>
+</monster>

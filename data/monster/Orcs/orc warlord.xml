@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Orc Warlord" nameDescription="a orc warlord" race="blood" experience="670" speed="290" manacost="0">
+<monster name="Orc Warlord" nameDescription="a orc warlord" race="blood" experience="670" speed="260" manacost="0">
 	<health now="950" max="950"/>
 	<look type="2" corpse="6008"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="4000" chance="15"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -18,22 +18,22 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="-40" max="-200"/>
-		<attack name="physical" interval="3000" chance="25" range="7" min="-100" max="-120">
+		<attack name="melee" interval="2000" skill="100" attack="50"/>
+		<attack name="physical" interval="3000" chance="25" range="7" skill="70" attack="50">
 			<attribute key="shootEffect" value="throwingstar"/>
 		</attack>
 	</attacks>
-	<defenses armor="22" defense="35">
+	<defenses armor="65" defense="65">
 		<defense name="invisible" interval="1000" chance="4" duration="2000">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
 	<elements>
 		<element firePercent="80"/>
-		<element energyPercent="40"/>
-		<element holyPercent="20"/>
+		<element energyPercent="20"/>
+		<element holyPercent="10"/>
 		<element earthPercent="-10"/>
-		<element deathPercent="-5"/>
+		<element deathPercent="-10"/>
 	</elements>
 	<immunities>
 		<immunity invisible="1"/>
@@ -45,28 +45,29 @@
 		<voice sentence="Futchi maruk buta!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="70" chance="50000"/><!-- gold coin -->
-		<item id="2666" countmax="3" chance="20000"/><!-- meat -->
-		<item id="2667" countmax="1" chance="6667"/><!-- fish -->
-		<item id="2392" chance="1538"/><!-- fire sword -->
-		<item id="2647" chance="2222"/><!-- plate legs -->
-		<item id="2463" chance="1333"/><!-- plate armor -->
-		<item id="2399" chance="3333" countmax="18"/><!-- throwing star -->
-		<item id="2428" chance="2000"/><!-- orcish axe -->
-		<item id="1988" chance="100000"><!-- backpack -->
-			<inside>
-				<item id="2478" chance="3333"/><!-- brass legs -->
-				<item id="2165" chance="1333"/><!-- stealth ring -->
-				<item id="2200" chance="2000"/><!-- protection amulet -->
-				<item id="2490" chance="2500"/><!-- dark helmet -->
-				<item id="2377" chance="1818"/><!-- two-handed sword -->
-				<item id="2434" chance="833"/><!-- dragon hammer -->
-				<item id="2497" chance="667"/><!-- crusader helmet -->
-				<item id="2179" chance="556"/><!-- gold ring -->
-				<item id="2499" chance="333"/><!-- amazon helmet -->
-				<item id="2500" chance="250"/><!-- amazon armor -->
-				<item id="2537" chance="200"/><!-- amazon shield -->
-			</inside>
-		</item>
+		<item id="2148" countmax="50" chance="45000"/><!-- gold coin -->
+		<item id="2399" countmax="22" chance="10000"/><!-- throwing star -->
+		<item id="2667" countmax="2" chance="12222"/><!-- fish -->
+		<item id="12435" countmax="1" chance="8888"/><!-- orc leather -->
+		<item id="12436" countmax="1" chance="8000"/><!-- skull belt -->
+		<item id="12409" countmax="1" chance="8100"/><!-- broken helmet -->
+		<item id="2428" countmax="1" chance="6000"/><!-- orcish axe -->
+		<item id="2419" countmax="1" chance="7000"/><!-- scimitar -->
+		<item id="2478" countmax="1" chance="7000"/><!-- brass legs -->
+		<item id="2463" countmax="1" chance="7000"/><!-- plate armor -->
+		<item id="11113" countmax="1" chance="7000"/><!-- orc tooth -->
+		<item id="2377" countmax="1" chance="5000"/><!-- two handed sword -->
+		<item id="3965" countmax="1" chance="6000"/><!-- hunting spear -->
+		<item id="2647" countmax="1" chance="6140"/><!-- plate legs -->
+		<item id="2200" countmax="1" chance="7445"/><!-- protection amulet -->
+		<item id="2465" countmax="1" chance="6455"/><!-- brass armor -->
+		<item id="2490" countmax="1" chance="8455"/><!-- dark helmet -->
+		<item id="7618" countmax="1" chance="3333"/><!-- health potion -->
+		<item id="2434" countmax="1" chance="1553"/><!-- dragon hammer -->
+		<item id="2497" countmax="1" chance="1111"/><!-- crusader helmet -->
+		<item id="2179" countmax="1" chance="888"/><!-- gold ring -->
+		<item id="1886" countmax="1" chance="100"/><!-- orc trophy -->
+		<item id="2165" countmax="1" chance="1330"/><!-- stealth ring -->
+		<item id="7891" countmax="1" chance="777"/><!-- magma boots -->
 	</loot>
 </monster>

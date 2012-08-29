@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Destroyer" nameDescription="a destroyer" race="blood" experience="2000" speed="270" manacost="0">
+<monster name="Destroyer" nameDescription="a destroyer" race="blood" experience="2500" speed="300" manacost="0">
 	<health now="3700" max="3700"/>
 	<look type="236" corpse="6320"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="3000" chance="10"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -14,28 +14,28 @@
 		<flag canpushitems="1"/>
 		<flag canpushcreatures="1"/>
 		<flag targetdistance="1"/>
-		<flag staticattack="90"/>
+		<flag staticattack="85"/>
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="-0" max="-480"/>
-		<attack name="physical" interval="1000" chance="15" range="7" min="-90" max="-165">
-			<attribute key="shootEffect" value="smallstone"/>
+		<attack name="melee" interval="2000" skill="100" attack="70"/>
+		<attack name="physical" interval="1000" chance="15" range="7" min="-120" max="-200">
+			<attribute key="shootEffect" value="largerock"/>
 		</attack>
 	</attacks>
-	<defenses armor="30" defense="35">
-		<defense name="speed" interval="1000" chance="7" speedchange="380" duration="8000">
-			<attribute key="areaEffect" value="redshimmer"/>
+	<defenses armor="50" defense="48">
+		<defense name="speed" interval="1000" chance="15" speedchange="664" duration="8000">
+			<attribute key="areaEffect" value="greenshimmer"/>
 		</defense>
 	</defenses>
 	<elements>
 		<element energyPercent="100"/>
-		<element firePercent="45"/>
-		<element physicalPercent="20"/>
+		<element firePercent="30"/>
+		<element physicalPercent="25"/>
 		<element earthPercent="20"/>
 		<element deathPercent="20"/>
 		<element icePercent="-15"/>
-		<element holyPercent="-10"/>
+		<element holyPercent="-3"/>
 	</elements>
 	<immunities>
 		<immunity paralyze="1"/>
@@ -44,21 +44,29 @@
 	<voices interval="5000" chance="10">
 		<voice sentence="Destructiooooon!"/>
 		<voice sentence="It's a good day to destroy!"/>
+		<voice sentence="COME HERE AND DIE!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="82" chance="100000"/><!-- gold coin -->
-		<item id="2645" chance="2222"/><!-- steel boots -->
-		<item id="2152" countmax="3" chance="200000"/><!-- platinum coin -->
-		<item id="2393" chance="660"/><!-- giant sword -->
-		<item id="5741" chance="1000"/><!-- skull helmet -->
-		<item id="2666" countmax="5" chance="30000"/><!-- meat -->
-		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
-				<item id="2463" chance="6666"/><!-- plate armor -->
-				<item id="2416" chance="9999"/><!-- crowbar -->
-				<item id="2489" chance="2500"/><!-- dark armor -->
-				<item id="2150" countmax="2" chance="7500"/><!-- small amethyst -->
-			</inside>
-		</item>
+		<item id="2148" countmax="350" chance="45000"/><!-- gold coin -->
+		<item id="2645" chance="699"/><!-- steel boots -->
+		<item id="2152" countmax="3" chance="20000"/><!-- platinum coin -->
+		<item id="2393" chance="1000"/><!-- giant sword -->
+		<item id="5741" chance="3000"/><!-- skull helmet -->
+		<item id="2666" countmax="6" chance="13333"/><!-- meat -->
+		<item id="2463" chance="8888"/><!-- plate armor -->
+		<item id="2416" chance="6500"/><!-- crowbar -->
+		<item id="2489" chance="5000"/><!-- dark armor -->
+		<item id="2150" countmax="2" chance="7000"/><!-- small amethyst -->
+		<item id="6500" chance="6888"/><!-- demonic essence -->
+		<item id="2546" countmax="12" chance="7000"/><!-- burst arrow -->
+		<item id="5944" chance="8000"/><!-- soul orb -->
+		<item id="11215" chance="5000"/><!-- metal spike -->
+		<item id="2553" chance="7333"/><!-- pick -->
+		<item id="7591" chance="3333"/><!-- great health potion -->
+		<item id="7419" chance="700"/><!-- dreaded cleaver -->
+		<item id="2125" chance="1200"/><!-- crystal necklace -->
+		<item id="7427" chance="900"/><!-- chaos mace -->
+		<item id="2178" chance="1300"/><!-- mind stone -->
+		<item id="6300" chance="700"/><!-- death ring -->
 	</loot>
 </monster>

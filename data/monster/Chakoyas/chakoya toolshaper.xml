@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Chakoya Toolshaper" nameDescription="a chakoya toolshaper" race="blood" experience="40" speed="270" manacost="0">
+<monster name="Chakoya Toolshaper" nameDescription="a chakoya toolshaper" race="blood" experience="40" speed="270" manacost="305">
 	<health now="80" max="80"/>
 	<look type="259" corpse="7320"/>
 	<targetchange interval="60000" chance="0"/>
@@ -9,19 +9,19 @@
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
-		<flag convinceable="0"/>
+		<flag convinceable="1"/>
 		<flag pushable="0"/>
-		<flag canpushitems="1"/>
-		<flag staticattack="50"/>
+		<flag canpushitems="0"/>
+		<flag staticattack="90"/>
 		<flag lightlevel="0"/>
 		<flag lightcolor="0"/>
 		<flag targetdistance="1"/>
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="-0" max="-35"/>
-		<attack name="physical" interval="1000" chance="34" range="7" radius="3" target="1" min="-5" max="-15">
-			<attribute key="shootEffect" value="snowball"/>
+		<attack name="melee" interval="2000" skill="30" attack="28"/>
+		<attack name="physical" interval="1000" chance="34" range="7" target="1" skill="30" attack="30">
+			<attribute key="shootEffect" value="smallstone"/>
 		</attack>
 	</attacks>
 	<defenses armor="30" defense="30"/>
@@ -39,8 +39,14 @@
 		<voice sentence="Kiyosa sipaju!"/>
 	</voices>
 	<loot>
-		<item id="2667" countmax="2" chance="20000"/><!-- fish -->
-		<item id="2148" countmax="20" chance="20000"/><!-- gold coin -->
-		<item id="2553" chance="2000"/><!-- pick -->
+		<item id="2667" countmax="2" chance="30000"/><!-- fish -->
+		<item id="2148" countmax="29" chance="60000"/><!-- gold coin -->
+		<item id="2553" chance="4000"/><!-- pick -->
+		<item id="2541" chance="1000"/><!-- bone shield -->
+		<item id="7441" chance="500"/><!-- ice cube -->
+		<item id="7381" chance="400"/><!-- mammoth whopper -->
+		<item id="7159" chance="800"/><!-- green perch -->
+		<item id="7158" chance="800"/><!-- rainbow trout -->
+		<item id="2669" chance="800"/><!-- northern pike -->
 	</loot>
 </monster>

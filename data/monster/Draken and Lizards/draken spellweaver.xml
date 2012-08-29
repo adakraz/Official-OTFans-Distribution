@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Draken Spellweaver" nameDescription="a draken spellweaver" race="blood" experience="2600" speed="240" manacost="0">
+    <health now="5000" max="5000"/>
+    <look type="340" corpse="11317"/>
+	<targetchange interval="5000" chance="8"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="85"/>
+        <flag runonhealth="0"/>
+     </flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="65" attack="50"/>
+		<attack name="fire" interval="2000" chance="14" range="7" radius="4" target="-150" max="-250">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="14" length="4" spread="3" min="-250" max="-500">
+			<attribute key="shootEffect" value="explosion"/>
+			<attribute key="areaEffect" value="explosion"/>
+		</attack>
+		<attack name="energy" interval="2000" chance="14" range="7" target="1" min="-200" max="-300">
+			<attribute key="shootEffect" value="energyball"/>
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="14" target="0" radius="6" min="-200" max="-400">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+	</attacks>
+	<defenses armor="45" defense="50">
+		<defense name="invisible" interval="2000" chance="20" duration="4000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+		<defense name="healing" interval="1000" chance="13" min="370" max="530">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element deathPercent="75"/>
+		<element holyPercent="-5"/>
+		<element energyPercent="-10"/>
+		<element icePercent="-10"/>
+		<element physicalPercent="-10"/>
+	</elements>
+	<immunities>
+		<immunity fire="1"/>
+		<immunity earth="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot>
+		<item id="11356" chance="1777" /><!-- zaoan robe -->
+		<item id="8871" chance="1375" /><!-- focus cape -->
+		<item id="2147" countmax="5" chance="2555" /><!-- small ruby -->
+		<item id="11303" chance="3000" /><!-- zaoan shoes -->
+		<item id="2123" chance="710" /><!-- ring of the sky -->
+		<item id="11314" chance="9122" /><!-- weaver's wandtip -->
+		<item id="2152" countmax="5" chance="8000" /><!-- platinum coin -->
+		<item id="2187" chance="4000" /><!-- wand of inferno -->
+		<item id="11355" chance="1000" /><!-- spellweaver's robe -->
+		<item id="2666" chance="30333" /><!-- meat -->
+		<item id="7590" chance="3333" /><!-- great mana potion -->
+		<item id="2148" countmax="200" chance="65000" /><!-- gold coin -->
+		<item id="11304" chance="2100" /><!-- zaoan legs -->
+		<!-- bamboo leaves -->
+		<!-- harness -->
+		<!-- draken trophy -->
+	</loot>
+</monster>

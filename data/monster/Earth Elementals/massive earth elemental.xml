@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Massive Earth Elemental" nameDescription="a massive earth elemental" race="undead" experience="950" speed="290" manacost="0">
+	<health now="1330" max="1330"/>
+	<look type="285" corpse="8933"/>
+	<targetchange interval="20000" chance="50"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag staticattack="80"/>
+		<flag lightlevel="0"/>
+		<flag lightcolor="0"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="1"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="100" attack="55"/>
+		<attack name="physical" interval="1000" chance="13" min="-95" max="-200">
+			<attribute key="shootEffect" value="largerock"/>
+		</attack>
+		<attack name="earth" interval="1000" chance="14" min="-99" max="-180">
+			<attribute key="shootEffect" value="smallearth"/>
+			<attribute key="areaEffect" value="stones"/>
+		</attack>
+		<attack name="poisoncondition" interval="1000" target="0" radius="4" chance="15" min="-5" max="-5">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="poisoncondition" interval="1000" target="0" length="7" chance="10" min="-8" max="-8">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="speed" interval="2000" chance="20" range="7" speedchange="-700" duration="10000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+	</attacks>
+	<defenses armor="45" defense="45"/>
+	<elements>
+		<element deathPercent="45"/>
+		<element physicalPercent="30"/>
+		<element energyPercent="90"/>
+		<element holyPercent="50"/>
+		<element firePercent="-15"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+		<immunity earth="1"/>
+		<immunity ice="1"/>
+	</immunities>
+	<loot>
+		<item id="2148" countmax="230" chance="95000"/><!-- gold coin -->
+		<item id="11222" countmax="1" chance="41000"/><!-- lump of earth -->
+		<item id="1294" countmax="10" chance="24000"/><!-- small stone -->
+		<item id="9809" countmax="1" chance="4500"/><!-- rusty armor (semi-rare) -->
+		<item id="9970" countmax="2" chance="4600"/><!-- small topaz -->
+		<item id="2145" countmax="2" chance="4600"/><!-- small diamond -->
+		<item id="2213" countmax="1" chance="2900"/><!-- dwarven ring -->
+		<item id="2200" countmax="1" chance="1500"/><!-- protection amulet -->
+		<item id="2197" countmax="1" chance="1600"/><!-- stone skin amulet -->
+		<item id="7887" countmax="1" chance="350"/><!-- terra amulet -->
+		<item id="7387" countmax="1" chance="350"/><!-- diamond sceptre -->
+		<item id="11339" countmax="1" chance="350"/><!-- clay lump -->
+	</loot>
+</monster>

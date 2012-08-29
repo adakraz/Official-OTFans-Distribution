@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Dark Torturer" nameDescription="a dark torturer" race="blood" experience="3500" speed="250" manacost="0">
+<monster name="Dark Torturer" nameDescription="a dark torturer" race="blood" experience="4650" speed="130" manacost="0">
 	<health now="7350" max="7350"/>
 	<look type="234" corpse="6328"/>
-	<targetchange interval="5000" chance="8"/>
+	<targetchange interval="5000" chance="15"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -14,30 +14,30 @@
 		<flag canpushitems="1"/>
 		<flag canpushcreatures="1"/>
 		<flag targetdistance="1"/>
-		<flag staticattack="90"/>
-		<flag runonhealth="0"/>
+		<flag staticattack="85"/>
+		<flag runonhealth="500"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="-0" max="-600"/>
-		<attack name="physical" interval="3000" chance="17" range="7" min="-60" max="-600">
+		<attack name="melee" interval="2000" skill="120" attack="110"/>
+		<attack name="physical" interval="2000" chance="20" range="7" min="-450" max="-800" target="1">
 			<attribute key="shootEffect" value="throwingknife"/>
 		</attack>
-		<attack name="physical" interval="3000" chance="17" length="4" spread="3" min="-0" max="-0">
-			<attribute key="areaEffect" value="purplenote"/>
+		<attack name="skills" interval="1000" radius="4" chance="10" shielding="-35" duration="5000">
+			<attribute key="areaEffect" value="rednote"/>
 		</attack>
 	</attacks>
-	<defenses armor="25" defense="35">
-		<defense name="healing" interval="1000" chance="50" min="75" max="125">
+	<defenses armor="50" defense="45">
+		<defense name="healing" interval="3000" chance="10" min="200" max="250">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
 	<elements>
 		<element firePercent="100"/>
-		<element earthPercent="50"/>
-		<element energyPercent="40"/>
-		<element deathPercent="35"/>
-		<element icePercent="-20"/>
-		<element holyPercent="-17"/>
+		<element earthPercent="90"/>
+		<element energyPercent="30"/>
+		<element deathPercent="10"/>
+		<element icePercent="-10"/>
+		<element holyPercent="-10"/>
 	</elements>
 	<immunities>
 		<immunity invisible="1"/>
@@ -45,22 +45,28 @@
 	<voices interval="3000" chance="30">
 		<voice sentence="You like it, don't you?"/>
 		<voice sentence="IahaEhheAie!"/>
+		<voice sentence="It's party time!"/>
+		<voice sentence="Harrr, Harrr!"/>
+		<voice sentence="The torturer is in!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="76" chance="100000"/><!-- gold coin -->
-		<item id="2671" countmax="5" chance="33333"/><!-- ham -->
-		<item id="2470" chance="2000"/><!-- golden legs -->
-		<item id="6300" chance="2066"/><!-- death ring -->
-		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
-				<item id="2513" chance="9999"/><!-- battle shield -->
-				<item id="6500" countmax="3" chance="4555"/><!-- demonic essence -->
-				<item id="2557" chance="12000"/><!-- carpenter hammer -->
-				<item id="2558" chance="11000"/><!-- saw -->
-				<item id="5944" chance="5555"/><!-- soul orb -->
-				<item id="5801" chance="1800"/><!-- key ring -->
-				<item id="5480" chance="1666"/><!-- cat's paw -->
-			</inside>
-		</item>
+		<item id="2148" countmax="250" chance="65000"/><!-- gold coin -->
+		<item id="2671" countmax="3" chance="45000"/><!-- ham -->
+		<item id="2470" chance="500"/><!-- golden legs -->
+		<item id="6300" chance="950"/><!-- death ring -->
+		<item id="6500" chance="6000"/><!-- demonic essence -->
+		<item id="2558" chance="2300"/><!-- saw -->
+		<item id="5944" chance="8500"/><!-- soul orb -->
+		<item id="5801" chance="900"/><!-- jewelled backpack -->
+		<item id="5480" chance="1620"/><!-- cat's paw -->
+		<item id="6558" countmax="3" chance="20000"/><!-- concentrated demonic blood -->
+		<item id="2152" countmax="6" chance="10000"/><!-- platinum coin -->
+		<item id="7591" chance="9500"/><!-- great health potion -->
+		<item id="2645" chance="4000"/><!-- steel boots -->
+		<item id="7368" chance="4000"/><!-- assassin star -->
+		<item id="7412" chance="666"/><!-- butcher's axe -->
+		<item id="5022" countmax="2" chance="230"/><!-- orichalcum pearl -->
+		<item id="7388" chance="240"/><!-- vile axe -->
+		<item id="9971" chance="100"/><!-- gold ingot -->
 	</loot>
 </monster>

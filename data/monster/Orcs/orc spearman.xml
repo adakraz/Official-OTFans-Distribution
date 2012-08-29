@@ -18,12 +18,12 @@
 		<flag runonhealth="10"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="19" attack="17"/>
-		<attack name="physical" interval="1000" chance="7" range="7" min="-16" max="-40">
+		<attack name="melee" interval="2000" skill="25" attack="17"/>
+		<attack name="physical" interval="1000" chance="7" range="7" skill="30" attack="18">
 			<attribute key="shootEffect" value="spear"/>
 		</attack>
 	</attacks>
-	<defenses armor="6" defense="12"/>
+	<defenses armor="13" defense="11"/>
 	<elements>
 		<element energyPercent="20"/>
 		<element holyPercent="10"/>
@@ -34,16 +34,14 @@
 		<voice sentence="Ugaar!"/>
 	</voices>
 	<loot>
-		<item id="3976" countmax="10" chance="50000"/><!-- worm -->
-		<item id="2148" countmax="10" chance="80000"/><!-- gold coin -->
-		<item id="2666" countmax="2" chance="80000"/><!-- meat -->
-		<item id="2468" chance="10000"/><!-- studded legs -->
-		<item id="2220" chance="10000"/><!-- dirty fur -->
-		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
-				<item id="2420" chance="10000"/><!-- machete -->
-				<item id="2389" countmax="1" chance="6666"/><!-- spear -->
-			</inside>
-		</item>
+		<item id="2148" countmax="11" chance="40000"/><!-- gold coin -->
+		<item id="2666" countmax="1" chance="20000"/><!-- meat -->
+		<item id="2389" countmax="1" chance="10000"/><!-- spear -->
+		<item id="2468" countmax="1" chance="7000"/><!-- studded legs -->
+		<item id="2482" countmax="1" chance="9000"/><!-- studded helmet -->
+		<item id="12435" countmax="1" chance="6000"/><!-- orc leather -->
+		<item id="2420" countmax="1" chance="4000"/><!-- machete -->
+		<item id="2220" countmax="1" chance="6000"/><!-- dirty fur -->
+		<item id="11113" countmax="1" chance="1000"/><!-- orc tooth -->
 	</loot>
 </monster>

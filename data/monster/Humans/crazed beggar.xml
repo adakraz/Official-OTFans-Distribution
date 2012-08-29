@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Crazed Beggar" nameDescription="a crazed beggar" race="blood" experience="35" speed="180" manacost="300">
+	<health now="100" max="100"/>
+	<look type="153" body="38" feet="97" head="59" legs="38" addons="3" corpse="3058"/>
+	<targetchange interval="4000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag staticattack="85"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="30" attack="20"/>
+	</attacks>
+	<defenses armor="11" defense="16"/>
+	<elements>
+		<element physicalPercent="5"/>
+		<element energyPercent="20"/>
+		<element holyPercent="10"/>
+		<element earth="-10"/>
+		<element death="-15"/>
+	</elements>
+	<voices interval="4000" chance="16">
+		<voice sentence="Hehehe!"/>
+		<voice sentence="Raahhh!"/>
+		<voice sentence="You are one of THEM! Die!"/>
+		<voice sentence="Wanna buy roses??"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="9" chance="45000"/><!-- gold coin -->
+		<item id="2666" countmax="1" chance="13000"/><!-- meat -->
+		<item id="2690" countmax="1" chance="10000"/><!-- roll -->
+		<item id="2567" countmax="1" chance="9000"/><!-- wooden spoon -->
+		<item id="2237" countmax="1" chance="8500"/><!-- dirty cape -->
+		<item id="2570" countmax="1" chance="8000"/><!-- rolling pin -->
+		<item id="2556" countmax="1" chance="7000"/><!-- wooden hammer -->
+		<item id="2072" countmax="1" chance="6800"/><!-- lute -->
+		<item id="2744" countmax="1" chance="6888"/><!-- red rose -->
+		<item id="1681" countmax="1" chance="3000"/><!-- small blue pillow -->
+		<item id="5553" countmax="1" chance="1300"/><!-- rum flask -->
+		<item id="2802" countmax="1" chance="1100"/><!-- sling herb -->
+		<item id="9808" countmax="1" chance="1000"/><!-- rusty armor -->
+		<item id="6091" countmax="1" chance="100"/><!-- very noble-looking watch -->
+		<item id="2213" countmax="1" chance="600"/><!-- dwarven ring -->
+	</loot>
+</monster>

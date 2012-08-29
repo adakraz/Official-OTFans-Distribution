@@ -18,7 +18,7 @@
 		<flag runonhealth="10"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="-20" max="-60"/>
+		<attack name="melee" interval="2000" skill="30" attack="20"/>
 	</attacks>
 	<defenses armor="8" defense="14"/>
 	<elements>
@@ -38,14 +38,10 @@
 		<item id="2666" countmax="2" chance="40000"/><!-- meat -->
 		<item id="2512" chance="10000"/><!-- wooden shield -->
 		<item id="2530" chance="4000"/><!-- copper shield -->
-		<item id="1987" chance="100000"><!-- bag -->
-			<inside>
-				<item id="2385" chance="6666"/><!-- sabre -->
-				<item id="2464" chance="5000"/><!-- chain armor -->
-				<item id="2420" chance="5000"/><!-- machete -->
-				<item id="2448" chance="5000"/><!-- studded club -->
-				<item id="2007" chance="20000"/><!-- blue bottle -->
-			</inside>
-		</item>
+		<item id="2385" chance="6666"/><!-- sabre -->
+		<item id="2464" chance="5000"/><!-- chain armor -->
+		<item id="2420" chance="5000"/><!-- machete -->
+		<item id="2448" chance="5000"/><!-- studded club -->
+		<item id="2007" chance="20000"/><!-- blue bottle -->
 	</loot>
 </monster>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Spectre" nameDescription="a spectre" race="undead" experience="2100" speed="280" manacost="0">
+	<health now="1350" max="1350"/>
+	<look type="235" head="20" corpse="6348"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="150" attack="45" poison="65"/>
+		<attack name="drunk" interval="2000" chance="18" radius="5" target="0" duration="15000">
+			<attribute key="areaEffect" value="rednote"/>
+		</attack>
+		<attack name="manadrain" interval="3000" chance="25" range="7" min="-100" max="-400">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		<attack name="lifedrain" interval="3000" chance="25" range="4" min="-300" max="-550">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		<attack name="drowncondition" interval="2000" chance="15" radius="4" target="1" min="-20" max="-30">
+			<attribute key="areaEffect" value="yellowspark"/>
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="20">
+		<defense name="healing" interval="1000" chance="50" min="75" max="125">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element earthPercent="100"/>
+		<element deathPercent="100"/>
+		<element physicalPercent="60"/>
+		<element icePercent="55"/>
+		<element firePercent="-23"/>
+		<element energyPercent="-20"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Revenge ... is so ... sweet!"/>
+		<voice sentence="Life...force! Feed me your... lifeforce!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="300" chance="90000"/><!-- gold coin -->
+		<item id="2260" countmax="2" chance="30000"/><!-- blank rune -->
+		<item id="2189" countmax="1" chance="8000"/><!-- wand of cosmic energy -->
+		<item id="2071" countmax="1" chance="8400"/><!-- lyre -->
+		<item id="6500" countmax="1" chance="6500"/><!-- demonic essence -->
+		<item id="5944" countmax="1" chance="5700"/><!-- soul orb -->
+		<item id="2152" countmax="7" chance="3700"/><!-- platinum coin -->
+		<item id="5909" countmax="1" chance="4000"/><!-- white piece of cloth -->
+		<item id="7590" countmax="1" chance="1160"/><!-- great mana potion -->
+		<item id="11227" countmax="1" chance="4000"/><!-- shiny stone -->
+		<item id="2134" countmax="1" chance="2000"/><!-- silver brooch -->
+		<item id="7383" countmax="1" chance="1000"/><!-- relic sword -->
+		<item id="6300" countmax="1" chance="1000"/><!-- death ring -->
+		<item id="2165" countmax="1" chance="500"/><!-- stealth ring -->
+		<item id="7451" countmax="1" chance="100"/><!-- shadow sceptre -->
+		<item id="2136" countmax="1" chance="100"/><!-- demonbone amulet -->
+	</loot>
+</monster>

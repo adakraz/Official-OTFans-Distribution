@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Phantasm" nameDescription="a phantasm" race="undead" experience="4400" speed="340" manacost="0">
+	<health now="3950" max="3950"/>
+	<look type="241" head="20" corpse="6344"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="85"/>
+		<flag runonhealth="120"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="100" attack="40"/>
+		<attack name="death" interval="2000" chance="20" min="-450" max="-510">
+			<attribute key="areaEffect" value="mortarea"/>
+			<attribute key="shootEffect" value="death"/>
+		</attack>
+		<attack name="drown" interval="2000" chance="17" length="7" spread="5" duration="10000">
+			<attribute key="areaEffect" value="bluebubble"/>
+		</attack>
+		<attack name="manadrain" interval="3000" chance="20" radius="3" target="0" min="-100" max="-300">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		<attack name="drunk" interval="2000" chance="5" duration="10000">
+			<attribute key="areaEffect" value="explosion"/>
+		</attack>
+	</attacks>
+	<defenses armor="1" defense="1">
+		<defense name="healing" interval="2000" chance="40" min="75" max="125">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="2000" chance="15" speedchange="594">
+			<attribute key="areaEffect" value="greenshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element deathPercent="100"/>
+		<element physicalPercent="100"/>
+		<element earthPercent="20"/>
+		<element icePercent="20"/>
+		<element holyPercent="-10"/>
+		<element firePercent="-10"/>
+		<element energyPercent="-10"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity lifedrain="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Oh my, you forgot to put your pants on!"/>
+		<voice sentence="Weeheeheeheehee!"/>
+		<voice sentence="Its nothing but a dream."/>
+		<voice sentence="Give in."/>
+		<voice sentence="Dream a little dream with me!"/>
+	</voices>
+	<summons maxSummons="4">
+		<summon name="Phantasm Summon" interval="3000" chance="20" max="4"/>
+	</summons>
+	<loot>
+		<item id="2148" countmax="190" chance="80000"/><!-- gold coin -->
+		<item id="2230" countmax="1" chance="40000"/><!-- bone -->
+		<item id="2260" countmax="2" chance="15000"/><!-- blank rune -->
+		<item id="2804" countmax="1" chance="20000"/><!-- shadow herb -->
+		<item id="6500" countmax="1" chance="7000"/><!-- demonic essence -->
+		<item id="2149" countmax="2" chance="8500"/><!-- small emerald -->
+		<item id="5944" countmax="1" chance="7000"/><!-- soul orb -->
+		<item id="9808" countmax="1" chance="6000"/><!-- rusty armor -->
+		<item id="7590" countmax="1" chance="5000"/><!-- great mana potion -->
+		<item id="2487" countmax="1" chance="2000"/><!-- crown armor -->
+		<item id="7414" countmax="1" chance="600"/><!-- abyss hammer -->
+		<item id="2152" countmax="1" chance="700"/><!-- platinum coin -->
+		<item id="2165" countmax="1" chance="500"/><!-- stealth ring -->
+		<item id="6300" countmax="1" chance="400"/><!-- death ring -->
+	</loot>
+</monster>
