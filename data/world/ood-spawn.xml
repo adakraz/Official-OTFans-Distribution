@@ -1430,12 +1430,21 @@
   <spawn centerx="712" centery="1593" centerz="10" radius="1">
     <monster name="Troll" x="1" y="0" z="10" spawntime="60"/>
   </spawn>
+  <spawn centerx="622" centery="1595" centerz="10" radius="1">
+    <monster name="Vampire" x="-1" y="1" z="10" spawntime="60"/>
+  </spawn>
   <spawn centerx="688" centery="1595" centerz="10" radius="1">
     <monster name="Troll" x="1" y="0" z="10" spawntime="60"/>
   </spawn>
   <spawn centerx="715" centery="1595" centerz="10" radius="1">
     <monster name="Troll" x="0" y="-1" z="10" spawntime="60"/>
     <monster name="Bat" x="1" y="-1" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="618" centery="1596" centerz="10" radius="1">
+    <monster name="Necromancer" x="0" y="1" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="623" centery="1600" centerz="10" radius="1">
+    <monster name="Necromancer" x="0" y="1" z="10" spawntime="60"/>
   </spawn>
   <spawn centerx="682" centery="1601" centerz="10" radius="1">
     <monster name="Troll" x="-1" y="1" z="10" spawntime="60"/>
@@ -1511,6 +1520,9 @@
     <monster name="troll champion" x="0" y="-1" z="11" spawntime="60"/>
     <monster name="Troll" x="1" y="0" z="11" spawntime="60"/>
   </spawn>
+  <spawn centerx="624" centery="1590" centerz="11" radius="1">
+    <monster name="Vampire" x="0" y="-1" z="11" spawntime="60"/>
+  </spawn>
   <spawn centerx="682" centery="1602" centerz="11" radius="1">
     <monster name="troll champion" x="-1" y="1" z="11" spawntime="60"/>
   </spawn>
@@ -1526,6 +1538,20 @@
   <spawn centerx="696" centery="1617" centerz="11" radius="1">
     <monster name="troll champion" x="0" y="-1" z="11" spawntime="60"/>
   </spawn>
+  <spawn centerx="607" centery="1559" centerz="12" radius="1">
+    <monster name="Vampire" x="1" y="1" z="12" spawntime="60"/>
+  </spawn>
+  <spawn centerx="619" centery="1559" centerz="12" radius="1">
+    <monster name="Vampire" x="1" y="0" z="12" spawntime="60"/>
+  </spawn>
+  <spawn centerx="614" centery="1560" centerz="12" radius="1">
+    <monster name="Demon Skeleton" x="-1" y="-1" z="12" spawntime="60"/>
+    <monster name="Demon Skeleton" x="1" y="-1" z="12" spawntime="60"/>
+  </spawn>
+  <spawn centerx="631" centery="1589" centerz="12" radius="1">
+    <monster name="Necromancer" x="-1" y="-1" z="12" spawntime="60"/>
+    <monster name="Necromancer" x="0" y="1" z="12" spawntime="60"/>
+  </spawn>
   <spawn centerx="798" centery="1776" centerz="12" radius="1">
     <monster name="Giant Spider" x="0" y="1" z="12" spawntime="60"/>
   </spawn>
@@ -1538,6 +1564,30 @@
   <spawn centerx="928" centery="1301" centerz="13" radius="4">
     <monster name="Dragon" x="1" y="-1" z="13" spawntime="45"/>
   </spawn>
+  <spawn centerx="630" centery="1553" centerz="13" radius="1">
+    <monster name="Banshee" x="0" y="-1" z="13" spawntime="60"/>
+  </spawn>
+  <spawn centerx="626" centery="1556" centerz="13" radius="1">
+    <monster name="Lich" x="-1" y="1" z="13" spawntime="60"/>
+  </spawn>
+  <spawn centerx="635" centery="1556" centerz="13" radius="1">
+    <monster name="Demon Skeleton" x="0" y="1" z="13" spawntime="60"/>
+  </spawn>
+  <spawn centerx="609" centery="1564" centerz="13" radius="1">
+    <monster name="Lich" x="1" y="1" z="13" spawntime="60"/>
+  </spawn>
+  <spawn centerx="618" centery="1564" centerz="13" radius="1">
+    <monster name="Demon Skeleton" x="1" y="0" z="13" spawntime="60"/>
+  </spawn>
+  <spawn centerx="626" centery="1567" centerz="13" radius="1">
+    <monster name="Banshee" x="1" y="1" z="13" spawntime="60"/>
+  </spawn>
+  <spawn centerx="635" centery="1567" centerz="13" radius="1">
+    <monster name="Banshee" x="-1" y="1" z="13" spawntime="60"/>
+  </spawn>
+  <spawn centerx="630" centery="1578" centerz="13" radius="1">
+    <monster name="Banshee" x="0" y="1" z="13" spawntime="60"/>
+  </spawn>
   <spawn centerx="665" centery="1718" centerz="13" radius="1">
     <monster name="Cyclops Smith" x="1" y="1" z="13" spawntime="60"/>
   </spawn>
@@ -1546,6 +1596,9 @@
   </spawn>
   <spawn centerx="671" centery="1724" centerz="13" radius="1">
     <monster name="Cyclops" x="0" y="-1" z="13" spawntime="60"/>
+  </spawn>
+  <spawn centerx="630" centery="1558" centerz="14" radius="1">
+    <monster name="Lost Soul" x="0" y="1" z="14" spawntime="60"/>
   </spawn>
   <spawn centerx="669" centery="1718" centerz="14" radius="1">
     <monster name="Dragon Hatchling" x="0" y="1" z="14" spawntime="60"/>
@@ -1584,6 +1637,9 @@
   </spawn>
   <spawn centerx="964" centery="1348" centerz="15" radius="5">
     <monster name="Bear" x="1" y="0" z="15" spawntime="60"/>
+  </spawn>
+  <spawn centerx="626" centery="1571" centerz="15" radius="1">
+    <monster name="Hellspawn" x="-1" y="1" z="15" spawntime="60"/>
   </spawn>
   <spawn centerx="661" centery="1721" centerz="15" radius="1">
     <monster name="Dragon" x="0" y="-1" z="15" spawntime="60"/>
