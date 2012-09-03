@@ -233,6 +233,18 @@
     <monster name="Rabbit" x="1" y="-1" z="6" spawntime="60"/>
     <monster name="Sheep" x="1" y="1" z="6" spawntime="60"/>
   </spawn>
+  <spawn centerx="605" centery="1650" centerz="6" radius="1">
+    <monster name="Ghost" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="594" centery="1651" centerz="6" radius="1">
+    <monster name="Ghost" x="1" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="596" centery="1656" centerz="6" radius="1">
+    <monster name="Ghost" x="0" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="593" centery="1659" centerz="6" radius="1">
+    <monster name="Vampire" x="-1" y="-1" z="6" spawntime="60"/>
+  </spawn>
   <spawn centerx="638" centery="1662" centerz="6" radius="3">
     <monster name="Ghoul" x="0" y="0" z="6" spawntime="60"/>
     <monster name="Skeleton" x="1" y="3" z="6" spawntime="60"/>
@@ -554,6 +566,12 @@
   <spawn centerx="774" centery="1634" centerz="7" radius="1">
     <monster name="Pig" x="1" y="1" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="626" centery="1636" centerz="7" radius="1">
+    <monster name="Demon Skeleton" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="630" centery="1636" centerz="7" radius="1">
+    <monster name="Vampire" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="659" centery="1636" centerz="7" radius="2">
     <monster name="Wolf" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
@@ -566,14 +584,61 @@
   <spawn centerx="774" centery="1636" centerz="7" radius="1">
     <monster name="Pig" x="1" y="0" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="625" centery="1638" centerz="7" radius="1">
+    <monster name="Ghost" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Demon Skeleton" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="609" centery="1639" centerz="7" radius="1">
+    <monster name="Demon Skeleton" x="-1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="621" centery="1639" centerz="7" radius="1">
+    <monster name="Demon Skeleton" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="626" centery="1639" centerz="7" radius="1"/>
   <spawn centerx="668" centery="1640" centerz="7" radius="2">
     <monster name="Wolf" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="616" centery="1641" centerz="7" radius="1">
+    <monster name="Skeleton" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Skeleton" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Demon Skeleton" x="1" y="0" z="7" spawntime="60"/>
+    <monster name="Ghoul" x="-1" y="1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="665" centery="1641" centerz="7" radius="2">
     <monster name="Wolf" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="601" centery="1642" centerz="7" radius="1">
+    <monster name="Demon Skeleton" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="603" centery="1642" centerz="7" radius="1">
+    <monster name="Demon Skeleton" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="658" centery="1642" centerz="7" radius="2">
     <monster name="Wolf" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="621" centery="1643" centerz="7" radius="1">
+    <monster name="Demon Skeleton" x="1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="635" centery="1645" centerz="7" radius="1">
+    <monster name="Demon Skeleton" x="1" y="0" z="7" spawntime="60"/>
+    <monster name="Ghoul" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="605" centery="1649" centerz="7" radius="1">
+    <monster name="Beholder" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="596" centery="1650" centerz="7" radius="1">
+    <monster name="Demon Skeleton" x="1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="625" centery="1650" centerz="7" radius="1">
+    <monster name="Ghoul" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="614" centery="1651" centerz="7" radius="1">
+    <monster name="Demon Skeleton" x="0" y="-1" z="7" spawntime="60"/>
+    <monster name="Ghoul" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="618" centery="1651" centerz="7" radius="1">
+    <monster name="Demon Skeleton" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Skeleton" x="-1" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="664" centery="1651" centerz="7" radius="2">
     <monster name="Wolf" x="0" y="0" z="7" spawntime="60"/>
@@ -581,8 +646,29 @@
   <spawn centerx="671" centery="1653" centerz="7" radius="2">
     <monster name="Wolf" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="594" centery="1656" centerz="7" radius="1">
+    <monster name="Ghoul" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Ghoul" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="604" centery="1656" centerz="7" radius="1">
+    <monster name="Ghoul" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Ghoul" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="647" centery="1656" centerz="7" radius="1">
+    <monster name="Skeleton" x="-1" y="0" z="7" spawntime="60"/>
+    <monster name="Demon Skeleton" x="0" y="1" z="7" spawntime="60"/>
+    <monster name="Skeleton" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="667" centery="1656" centerz="7" radius="2">
     <monster name="Wolf" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="594" centery="1658" centerz="7" radius="1">
+    <monster name="Demon Skeleton" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="632" centery="1658" centerz="7" radius="1">
+    <monster name="Demon Skeleton" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Skeleton" x="0" y="-1" z="7" spawntime="60"/>
+    <monster name="Skeleton" x="1" y="-1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="716" centery="1659" centerz="7" radius="1">
     <monster name="Deer" x="1" y="0" z="7" spawntime="60"/>
@@ -593,6 +679,13 @@
   <spawn centerx="734" centery="1659" centerz="7" radius="1">
     <monster name="Deer" x="1" y="0" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="619" centery="1660" centerz="7" radius="1">
+    <monster name="Demon Skeleton" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="600" centery="1661" centerz="7" radius="1">
+    <monster name="Demon Skeleton" x="1" y="0" z="7" spawntime="60"/>
+    <monster name="Ghoul" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="625" centery="1663" centerz="7" radius="1">
     <monster name="Ghoul" x="0" y="-1" z="7" spawntime="60"/>
   </spawn>
@@ -601,6 +694,10 @@
   </spawn>
   <spawn centerx="639" centery="1665" centerz="7" radius="1">
     <monster name="Ghoul" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="620" centery="1666" centerz="7" radius="1">
+    <monster name="Ghoul" x="-1" y="0" z="7" spawntime="60"/>
+    <monster name="Ghoul" x="1" y="1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="645" centery="1666" centerz="7" radius="1">
     <monster name="Ghoul" x="1" y="0" z="7" spawntime="60"/>
@@ -622,7 +719,7 @@
   </spawn>
   <spawn centerx="625" centery="1672" centerz="7" radius="1">
     <monster name="Ghoul" x="1" y="-1" z="7" spawntime="60"/>
-    <monster name="Ghoul" x="1" y="1" z="7" spawntime="60"/>
+    <monster name="Ghoul" x="-1" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="632" centery="1675" centerz="7" radius="1">
     <monster name="Skeleton" x="-1" y="-1" z="7" spawntime="60"/>
