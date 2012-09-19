@@ -14,9 +14,9 @@ Tanner.bored 	= {"Buying fresh corpses of rats, rabbits and wolves.", "Oh yeah, 
 Tanner.farewell = {"Don't forget to bring me corpses!"}
 Tanner.runoff 	= {"How rude!"}
  
-Tom.idleTimeout 	= 30
-Tom.listenRadius 	= 4
-Tom.walkRadius 		= 3
+Tanner.idleTimeout 	= 30
+Tanner.listenRadius 	= 4
+Tanner.walkRadius 		= 3
  
 --[[
 Tanner.dialog = {
@@ -41,6 +41,6 @@ Tanner.trade = {
 	{'poison spider shell', id=12441, sell=3};
 	{'dead rabbit', 	 	id=2992, sell=2};
 	{'dead rat', 	 	 	id=3073, sell=2};
-	{'lump of dirt', 	 	id=10609, sell=2;
+	{'lump of dirt', 	 	id=10609, sell=2};
 	{'pig foot', 	 	 	id=10610, sell=2};
 }

@@ -14,9 +14,9 @@ Postman.bored	 = {"If you need help with letters or parcels, just ask me. I can 
 Postman.farewell = {"Hey, send a letter to your friend now and then. Keep in touch, you know."}
 Postman.runoff 	 = {"How rude!"}
  
-Benjamin.idleTimeout = 30
-Benjamin.listenRadius = 4
-Benjamin.walkRadius = 3
+Postman.idleTimeout = 30
+Postman.listenRadius = 4
+Postman.walkRadius = 3
  
 --[[
 Postman.dialog = {

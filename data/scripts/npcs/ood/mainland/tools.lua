@@ -14,9 +14,9 @@ Equiper.bored	 = {"General goods and paperware for sale!"}
 Equiper.farewell = {"Farewell, young adventurer!"}
 Equiper.runoff 	 = {"How rude!"}
  
-Gorn.idleTimeout  = 30
-Gorn.listenRadius = 4
-Gorn.walkRadius	  = 3
+Equiper.idleTimeout  = 30
+Equiper.listenRadius = 4
+Equiper.walkRadius	  = 3
  
 --[[
 Equiper.dialog = {

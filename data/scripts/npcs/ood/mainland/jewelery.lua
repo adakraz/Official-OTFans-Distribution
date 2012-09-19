@@ -14,9 +14,9 @@ Jeweler.bored 		= {"Gems and jewellery! Best prices in town!"}
 Jeweler.farewell 	= {"Don't forget to come back!"}
 Jeweler.runoff 		= {"How rude!"}
  
-Hanna.idleTimeout 	= 30
-Hanna.listenRadius 	= 4
-Hanna.walkRadius	= 3
+Jeweler.idleTimeout 	= 30
+Jeweler.listenRadius 	= 4
+Jeweler.walkRadius	= 3
  
 --[[
 Jeweler.dialog = {

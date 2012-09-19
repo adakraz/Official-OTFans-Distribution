@@ -13,9 +13,9 @@ Furniturer.greeting = {"Hey $name, come and trade with me!"}
 Furniturer.farewell = {"Good bye!"}
 Furniturer.runoff   = {"How rude!"}
  
-Edvard.idleTimeout  = 30
-Edvard.listenRadius = 4
-Edvard.walkRadius   = 3
+Furniturer.idleTimeout  = 30
+Furniturer.listenRadius = 4
+Furniturer.walkRadius   = 3
  
 --[[
 Furniturer.dialog = {

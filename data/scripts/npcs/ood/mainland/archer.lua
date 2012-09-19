@@ -14,9 +14,9 @@ Fletcher.bored 		= {"Increase your knowledge of spells here, young paladin.", "N
 Fletcher.farewell 	= {"Bye!"}
 Fletcher.runoff 	= {"How rude!"}
  
-Dario.idleTimeout  = 30
-Dario.listenRadius = 4
-Dario.walkRadius   = 3
+Fletcher.idleTimeout  = 30
+Fletcher.listenRadius = 4
+Fletcher.walkRadius   = 3
  
 --[[
 Fletcher.dialog = {

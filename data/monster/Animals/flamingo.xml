@@ -1,7 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Flamingo -->
 <!-- Date: 05/20/2012 10:22 -->
-<!-- RenzoTM --->
-<?xml version="1.0" encoding="UTF-8"?>
+<!-- RenzoTM -->
 <monster name="Flamingo" nameDescription="a flamingo" race="blood" experience="0" speed="180" manacost="250">
 	<health now="25" max="25"/>
 	<look type="212" corpse="6054"/>

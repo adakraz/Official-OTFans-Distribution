@@ -221,7 +221,7 @@ Smith.trade = {
 	{'magma coat', 			  id=7899, sell=11000};
 	{'mammoth fur cape', 	  id=7463, sell=6000};
 	{'pirate shirt', 		  id=6095, sell=500};
-	{'terra mantle', 		  id=7884, sell=}11000;
+	{'terra mantle', 		  id=7884, sell=11000};
  
 	-- Boots
 	{'steel boots', 		id=2645, sell=40000};
@@ -236,7 +236,7 @@ Smith.trade = {
 	{'magma boots', 		id=7891, sell=2500};
 	{'lightning boots', 	id=7893, sell=2500};
 	{'fur boots', 			id=7457, sell=2000};
-	{'glacier shoes', 		id=????, sell=2500};
+	-- TODO: {'glacier shoes', 		id=????, sell=2500};
  
 	-- Legs
 	{'crown legs', 		 	 id=2488, sell=12000};

@@ -14,9 +14,9 @@ Shopkeeper.bored 	= {"Are you looking for the best trades? Come to my shop!", "F
 Shopkeeper.farewell = {"Don't head for adventure without a rope and torches! Buy your supplies here!"}
 Shopkeeper.runoff 	= {"How rude!"}
  
-AlDee.idleTimeout 	= 30
-AlDee.listenRadius 	= 4
-AlDee.walkRadius 	= 3
+Shopkeeper.idleTimeout 	= 30
+Shopkeeper.listenRadius 	= 4
+Shopkeeper.walkRadius 	= 3
  
 --[[
 Shopkeeper.dialog = {

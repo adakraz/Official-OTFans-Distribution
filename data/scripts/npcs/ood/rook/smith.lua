@@ -14,9 +14,9 @@ Rookgardsmith.bored		= {"Only quality steel and wood used for my weapons!", "Sel
 Rookgardsmith.farewell 	= {"Travel safe, $name."}
 Rookgardsmith.runoff 	= {"How rude!"}
  
-RookgardSmith.idleTimeout 	= 30
-RookgardSmith.listenRadius 	= 4
-RookgardSmith.walkRadius 	= 3
+Rookgardsmith.idleTimeout 	= 30
+Rookgardsmith.listenRadius 	= 4
+Rookgardsmith.walkRadius 	= 3
  
 --[[
 Rookgardsmith.dialog = {

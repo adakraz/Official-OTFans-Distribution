@@ -26,6 +26,6 @@
 	</elements>
 	<loot>
 		<item id="2148" countmax="5" chance="35000"/><!-- gold coin -->
-		<!-- item id="2148" countmax="5" chance="35000"/><!-- spider fang -->
+                <!-- item id="2148" countmax="5" chance="35000"/--><!-- spider fang -->
 	</loot>
 </monster>
